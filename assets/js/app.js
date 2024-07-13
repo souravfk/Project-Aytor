@@ -45,7 +45,7 @@ $(function(){
         arrows: false,
         dots: true,
         dotsClass:'dots_container container',
-        // autoplay: true,
-        // autoplaySpeed: 3000,
+        autoplay: true,
+        autoplaySpeed: 3000,
     });
 });
