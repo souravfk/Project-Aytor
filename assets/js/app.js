@@ -39,3 +39,13 @@ cross.addEventListener('click',function(){
     search_box.classList.remove("search_active");
     
 });
+
+$(function(){
+    $('.parent-banner').slick({
+        arrows: false,
+        dots: true,
+        dotsClass:'dots_container container',
+        autoplay: true,
+        autoplaySpeed: 3000,
+    });
+});

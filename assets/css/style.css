@@ -36,6 +36,7 @@ h1,h2,h3,h4,h5,h6,p{
 	--bg: #f1f3f4;
 	--black: #000;
 	--a6aab7: #a6aab7;
+    --1d1d: #1d1d1d;
 }
 /* common color end */
 
@@ -81,8 +82,27 @@ nav .navbar-nav li a{
     line-height: 162%;
     color: var(--text-color);
     padding: 0px !important;
+    position: relative;
+    transition: 0.3s;
+}
+nav .navbar-nav li a:hover{
+    color: var(--1st-primary-color);
 }
 
+nav .navbar-nav li a::before{
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: -29px;
+    height: 3px;
+    width: 0px;
+    background-color: var(--1st-primary-color);
+    transition: 0.3s;
+}
+
+nav .navbar-nav li a:hover::before{
+    width: 100%;
+}
 
 nav .icone{
     display: flex;
@@ -125,6 +145,8 @@ nav .icone .bag .number-of-sales{
 
 }
 
+
+/* =====HOME PAGE START===== */
 
 .search_box{
     width: 100vw;
@@ -192,7 +214,7 @@ nav .icone .bag .number-of-sales{
     border: 2px solid var(--2nd-primary-color);
     border-radius: 50%;
     text-align: center;
-    line-height: 40px;
+    line-height: 36px;
     cursor: pointer;
     transition: .03s;
 }
@@ -200,6 +222,118 @@ nav .icone .bag .number-of-sales{
 .search_box span:hover{
     transform: scale(1.2);
     border: 2px solid var(--comon-colot);
-    /* border: 2px solid var(--comon-colot); */
 }
 /* navigation secton end */
+
+
+/* banner section start */
+#banner .child-banner {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 800px;
+}
+
+#banner .child-banner .container .contains{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+}
+
+#banner .child-banner .container .contains h6{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 156%;
+    color: var(--1d1d);
+    /* transform: translateY(-200%);
+    opacity: 0;
+    transition: 0.5s;
+    transition-delay: 0.3s; */
+}
+
+/* #banner  .child-banner .slick-active .contains h6{
+    opacity: 1;
+    transform: translateY(0%);
+} */
+
+#banner .child-banner .container .contains h2{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 116%;
+    color: var(--1d1d);
+    margin-top: 14px;
+    /* transform: translateY(-100%);
+    opacity: 0;
+    transition: 0.5s;
+    transition-delay: 0.3s; */
+
+}
+
+/* #banner  .child-banner .container .slick-active .contains h2{
+    opacity: 1;
+    transform: translateY(0%);
+} */
+
+#banner .child-banner .container .contains p{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: var(--1d1d);
+    margin: 16px 0 29px 0;
+}
+
+#banner .child-banner .container .contains .ancore a{
+    background-color: var(--1st-primary-color);
+    padding: 13px 0px 13px 37px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 167%;
+    text-align: center;
+    color: var(--comon-colot);
+    transition: 0.2s;
+}
+
+#banner .child-banner .container .contains .ancore a:hover{
+    background-color: var(--2nd-primary-color);
+}
+
+#banner .child-banner .container .contains .ancore a span{
+    padding: 0px 38px 0px 10px;
+}
+
+#banner .dots_container{
+    position: absolute;
+    bottom: 25%;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+
+#banner .dots_container li button{
+    background-color: var(--comon-colot);
+    border: none;
+    width: 10px;
+    height: 6px;
+    border-radius: 5px;
+    color: transparent;
+    margin-right: 5px;
+}
+
+#banner .dots_container .slick-active button{
+    background-color: var(--1st-primary-color);
+    width: 28px;
+}
+
+/* banner section end */
+
+
+
+
+/* =====HOME PAGE END===== */
