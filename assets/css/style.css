@@ -314,7 +314,7 @@ nav .icone .bag .number-of-sales{
 
 #banner .dots_container{
     position: absolute;
-    bottom: 25%;
+    bottom: 20%;
     left: 50%;
     transform: translate(-50%);
     display: flex;
@@ -336,6 +336,77 @@ nav .icone .bag .number-of-sales{
 }
 
 /* banner section end */
+
+
+/* photo galary section start */
+#photo-galary{
+    padding-top: 85px;
+}
+
+#photo-galary .container .row .overlay h3{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 133%;
+    text-align: center;
+    color: var(--comon-colot);
+}
+
+#photo-galary .container .row .overlay a{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 175%;
+    text-align: center;
+    color: var(--comon-colot);
+}
+
+#photo-galary .container .row .img1{
+   position: relative;
+   padding: 5px;
+}
+
+#photo-galary .container .row .img2{
+    position: relative;
+    padding: 5px;
+ }
+
+ #photo-galary .container .row .img3{
+    position: relative;
+    padding: 5px;
+ }
+
+#photo-galary .container .row .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;;
+    background: var(--text-color);
+    opacity: 0.4;
+    scale: 0;
+    transition: 0.5s;
+}
+
+#photo-galary .container .row .img1:hover .overlay{
+    scale: 0.8;
+}
+
+#photo-galary .container .row .img2:hover .overlay{
+    scale: 0.8;
+}
+
+    #photo-galary .container .row .img3:hover .overlay{
+        scale: 0.8;
+    }
+
+
+
+/* photo galary section end */
 
 
 
