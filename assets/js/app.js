@@ -1,4 +1,3 @@
-
 // Navigation section
 let nav = document.querySelector('nav');
 
@@ -40,6 +39,18 @@ cross.addEventListener('click',function(){
     
 });
 
+search_box.addEventListener('click', function(e){
+    if(e.target.classList.contains("search_box")){
+        search_box.classList.remove('search_active');
+    }
+});
+
+
+
+
+const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+
 $(function(){
     $('.parent-banner').slick({
         arrows: false,
@@ -48,4 +59,34 @@ $(function(){
         autoplay: true,
         autoplaySpeed: 3000
     });
+});
+
+
+$(".productSlicks").slick({
+    slidesToShow: 4,
+    prevArrow:"#newArivalProduct .arrows .leftArrow",
+    nextArrow:"#newArivalProduct .arrows .rightArrow",
+    responsive: [
+        {
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 3,
+          }
+        },
+
+        {
+            breakpoint: 767,
+            settings: {
+              slidesToShow: 2,
+            }
+          },
+
+          {
+            breakpoint: 575,
+            settings: {
+              slidesToShow: 1,
+            }
+          },
+     
+      ]
 });
