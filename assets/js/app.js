@@ -51,13 +51,15 @@ search_box.addEventListener('click', function(e){
 const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
 const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
 
+
+//first-banner section
 $(function(){
     $('.parent-banner').slick({
         arrows: false,
         dots: true,
         dotsClass:'dots_container container',
-        autoplay: true,
-        autoplaySpeed: 3000
+       autoplay: true,
+       autoplaySpeed: 3000
     });
 });
 
@@ -89,4 +91,15 @@ $(".productSlicks").slick({
           },
      
       ]
+});
+
+
+
+//second-banner section 
+$(function(){
+    $('.parent-banner2').slick({
+       arrows: false,
+       autoplay: true,
+       autoplaySpeed: 4000
+    });
 });
