@@ -103,3 +103,36 @@ $(function(){
        autoplaySpeed: 4000
     });
 });
+
+
+$('.parentTimmer').slick({
+    arrows: false,
+    slidesToShow: 2,
+    dots: true,
+    dotsClass:'dots_Timmer container',
+   autoplay: true,
+   autoplaySpeed: 4000,
+   responsive: [
+    {
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 3,
+      }
+    },
+
+    {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 1,
+        }
+      },
+
+      {
+        breakpoint: 575,
+        settings: {
+          slidesToShow: 1,
+        }
+      },
+ 
+  ]
+});
