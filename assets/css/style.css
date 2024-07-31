@@ -1117,7 +1117,6 @@ nav .icone .bag .number-of-sales{
     font-size: 36px;
     line-height: 128%;
     color: var(--text-color);
-    width: 360px;
 }
 
 #thirdBanner .container .contains .details p{
@@ -1126,7 +1125,6 @@ nav .icone .bag .number-of-sales{
     font-size: 16px;
     line-height: 175%;
     color: var(--paragraph-color);
-    width: 360px;
 }
 
 #thirdBanner .container .contains .details .btnAncore button{
