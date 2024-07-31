@@ -1103,7 +1103,7 @@ nav .icone .bag .number-of-sales{
 
 }
 
-#thirdBanner .container .contains h6{
+#thirdBanner .container .contains .details h6{
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
@@ -1111,7 +1111,7 @@ nav .icone .bag .number-of-sales{
     color: var(--paragraph-color);;
 }
 
-#thirdBanner .container .contains h3{
+#thirdBanner .container .contains .details h3{
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 36px;
@@ -1120,7 +1120,7 @@ nav .icone .bag .number-of-sales{
     width: 360px;
 }
 
-#thirdBanner .container .contains p{
+#thirdBanner .container .contains .details p{
     font-family: var(--second-family);
     font-weight: 400;
     font-size: 16px;
@@ -1129,7 +1129,7 @@ nav .icone .bag .number-of-sales{
     width: 360px;
 }
 
-#thirdBanner .container .contains .btnAncore button{
+#thirdBanner .container .contains .details .btnAncore button{
     background-color: var(--1st-primary-color);
     border: none; 
     padding: 12px 23px 12px 27px;
