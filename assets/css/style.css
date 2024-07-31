@@ -1079,14 +1079,86 @@ nav .icone .bag .number-of-sales{
     padding-left: 4px;
 }
 
-
-
 /* productTimer section style end */
 
 
 
 
 /* thirdBanner section style start */
+
+#thirdBanner{
+    margin-top: 25px;
+}
+
+
+#thirdBanner .container{  
+    width: 100%;
+}
+
+#thirdBanner .container .contains{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg);
+
+}
+
+#thirdBanner .container .contains h6{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    color: var(--paragraph-color);;
+}
+
+#thirdBanner .container .contains h3{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 128%;
+    color: var(--text-color);
+    width: 360px;
+}
+
+#thirdBanner .container .contains p{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: var(--paragraph-color);
+    width: 360px;
+}
+
+#thirdBanner .container .contains .btnAncore button{
+    background-color: var(--1st-primary-color);
+    border: none; 
+    padding: 12px 23px 12px 27px;
+    transition: 0.2s;
+}
+
+#thirdBanner .container .contains .btnAncore button:hover{
+    background-color: var(--2nd-primary-color);
+    transform: scale(1.1);
+}
+
+#thirdBanner .container .contains .btnAncore button a{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 167%;
+    text-align: center;
+    color: var(--comon-colot);
+}
+
+#thirdBanner .container .contains .btnAncore button a span{
+    padding-left: 4px;
+}
+
+#thirdBanner .container .videoimage img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 /* thirdBanner section style start */
 
 
