@@ -50,7 +50,7 @@ body{
 
 /* navigation secton start */
 nav{
-    z-index: 100;
+    z-index: 80;
 }
 
 nav.active{
@@ -219,7 +219,7 @@ nav .icone .bag .number-of-sales{
     justify-content: center;
     visibility: hidden;
     opacity: 0;
-    z-index: 60;
+    z-index: 85;
 }
 
 .search_box.search_active{
@@ -767,13 +767,22 @@ nav .icone .bag .number-of-sales{
     padding-bottom: 26px;
 }
 
-#bestSellerProducts .container .productsItems .products .productDetils p{
+#bestSellerProducts .container .productsItems .products .productDetils .pdSpan1{
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
     line-height: 162%;
-    color: var(--paragraph-color);
     margin-top: 24px;
+    color: var(--paragraph-color);
+}
+
+#bestSellerProducts .container .productsItems .products .productDetils .pdSpan2{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    text-decoration: line-through;
+    color: var(--bdbdbd);
 }
 
 #bestSellerProducts .container .productsItems .products .productDetils h4{
