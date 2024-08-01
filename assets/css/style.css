@@ -724,15 +724,18 @@ nav .icone .bag .number-of-sales{
 
 #bestSellerProducts .container .productsItems .products {
     margin-bottom: 24px;
+
 }
 
 #bestSellerProducts .container .productsItems .products .productImage{
     position: relative;
+    background-color: var(--background-color);
 }
 
 #bestSellerProducts .container .productsItems .products .productImage img{
     background-size: cover;
     display: inline-block;
+    height: 310px;
 }
 
 #bestSellerProducts .container .productsItems .products .discountPrice{
@@ -765,6 +768,7 @@ nav .icone .bag .number-of-sales{
     text-align: center;
     border: 1px solid var(--bg);
     padding-bottom: 26px;
+    padding: 15px;
 }
 
 #bestSellerProducts .container .productsItems .products .productDetils .pdSpan1{
