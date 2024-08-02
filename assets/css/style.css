@@ -1104,7 +1104,6 @@ nav .icone .bag .number-of-sales{
     display: flex;
     flex-direction: column;
     background-color: var(--bg);
-
 }
 
 #thirdBanner .container .contains .details h6{
@@ -1136,6 +1135,7 @@ nav .icone .bag .number-of-sales{
     border: none; 
     padding: 12px 23px 12px 27px;
     transition: 0.2s;
+    margin-top: 15px;
 }
 
 #thirdBanner .container .contains .btnAncore button:hover{
@@ -1156,11 +1156,63 @@ nav .icone .bag .number-of-sales{
     padding-left: 4px;
 }
 
-#thirdBanner .container .videoimage img{
+#thirdBanner .container .videoimage .images img{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
+
+
+#thirdBanner .container .videoimage .images{
+    position: relative;
+}
+
+#thirdBanner .container .videoimage .images .videoPlayButton{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: var(--comon-colot);
+    text-align: center;
+    font-size: 24px;
+    line-height: 60px;
+    color: var(--1st-primary-color);
+    cursor: pointer;
+    z-index: 3;
+
+}
+
+#thirdBanner .container .videoimage .images .videoPlayButton::before{
+    position: absolute;
+    content: "";
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: var(--comon-colot);
+    animation: playButtonSpam 2s infinite linear;
+    top: -10px;
+    right: -10px;
+    z-index: -3;
+}
+
+@keyframes playButtonSpam{
+    0%{
+      opacity: 0;
+      transform:scale(1);
+    }
+    30%{
+      opacity: 0.5;
+    }
+    100%{
+      opacity: 0;
+      transform: scale(1.3);
+    }
+}
+
+
+
 /* thirdBanner section style start */
 
 
