@@ -144,8 +144,8 @@ $('.parentTimmer').slick({
 $('.latestParentNews').slick({
   arrows: false,
   slidesToShow: 4,
-  // dots: true,
-  // dotsClass:'dots_latest container',
+  dots: true,
+  dotsClass:'dots_latest container',
   autoplay: true,
   autoplaySpeed: 5000,
   responsive: [

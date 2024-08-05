@@ -1402,7 +1402,11 @@ nav .icone .bag .number-of-sales{
 #latestNews .latestParentNews .latestProduct{
     padding: 10px;
     width: 366px;
-    height: 312px;
+    transition: 0.2s;
+}
+
+#latestNews .latestParentNews .latestProduct:hover{
+    transform: scale(1.1);
 }
 
 #latestNews .latestParentNews .latestProduct .product{
@@ -1452,6 +1456,37 @@ nav .icone .bag .number-of-sales{
     height: 100%;
 
 }
+
+#latestNews .latestParentNews .container{
+    position: relative;
+}
+
+
+#latestNews .dots_latest{
+    position: absolute;
+    bottom: 20%;
+    display: flex;
+    width: 200px;
+}
+
+#latestNews .dots_latest li button{
+    background-color: var(--bdbdbd);
+    border: none;
+    border-radius: 5px;
+    width: 10px;
+    height: 6px;
+    color: transparent;
+    margin-right: 5px;
+    
+}
+
+#latestNews .dots_latest .slick-active button{
+    background: var(--3d-primary-color);
+    border-radius: 5px;
+    width: 26px;
+    height: 6px;
+}
+
 
 
 
