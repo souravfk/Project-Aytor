@@ -1400,7 +1400,7 @@ nav .icone .bag .number-of-sales{
 }
 
 #latestNews .latestParentNews .latestProduct{
-    padding: 10px;
+    padding: 20px;
     width: 366px;
     transition: 0.2s;
 }
@@ -1422,6 +1422,10 @@ nav .icone .bag .number-of-sales{
    color: var(--text-color);
 }
 
+#latestNews .latestParentNews .latestProduct .product .latestcontains h4:hover{
+    color: var(--1st-primary-color);
+}
+
 #latestNews .latestParentNews .latestProduct .product .latestcontains p{
     font-family: var(--second-family);
     font-weight: 400;
@@ -1437,6 +1441,10 @@ nav .icone .bag .number-of-sales{
     font-size: 16px;
     line-height: 175%;
     color: var(--paragraph-color);
+}
+
+#latestNews .latestParentNews .latestProduct .product .latestcontains a:hover{
+    color: var(--1st-primary-color);
 }
 
 
