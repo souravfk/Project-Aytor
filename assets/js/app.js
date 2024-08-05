@@ -14,6 +14,7 @@ window.addEventListener('scroll', function(){
 
 //Icons part
 let search = document.querySelector(".search");
+let bag = document.querySelector (".bag");
 let search_box = document.querySelector(".search_box");
 let cross = document.querySelector(".cross");
 let input_box = document.querySelector(".input_box");
@@ -31,6 +32,7 @@ search.addEventListener('click', function(){
     }
 
 });
+
 
 cross.addEventListener('click',function(){
 
@@ -59,7 +61,7 @@ $(function(){
         dots: true,
         dotsClass:'dots_container container',
        autoplay: true,
-       autoplaySpeed: 3000
+       autoplaySpeed: 5000
     });
 });
 
@@ -100,7 +102,7 @@ $(function(){
     $('.parent-banner2').slick({
        arrows: false,
        autoplay: true,
-       autoplaySpeed: 4000
+       autoplaySpeed: 5000
     });
 });
 
@@ -110,9 +112,43 @@ $('.parentTimmer').slick({
     slidesToShow: 2,
     dots: true,
     dotsClass:'dots_Timmer container',
-   autoplay: true,
-   autoplaySpeed: 4000,
-   responsive: [
+    autoplay: true,
+    autoplaySpeed: 5000,
+    responsive: [
+    {
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 3,
+      }
+    },
+
+    {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 1,
+        }
+      },
+
+      {
+        breakpoint: 575,
+        settings: {
+          slidesToShow: 1,
+        }
+      },
+ 
+  ]
+});
+
+//latestNews section
+
+$('.latestParentNews').slick({
+  arrows: false,
+  slidesToShow: 4,
+  // dots: true,
+  // dotsClass:'dots_latest container',
+  autoplay: true,
+  autoplaySpeed: 5000,
+  responsive: [
     {
       breakpoint: 992,
       settings: {
