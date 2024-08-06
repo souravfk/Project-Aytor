@@ -40,6 +40,7 @@ h1,h2,h3,h4,h5,h6,p{
 	--a6aab7: #a6aab7;
     --1d1d: #1d1d1d;
     --bdbdbd: #bdbdbd;
+    --e0e0e0: #e0e0e0;
 }
 /* common color end */
 
@@ -1496,9 +1497,84 @@ nav .icone .bag .number-of-sales{
 }
 
 
-
-
 /* latestNews section style end */
+
+
+
+
+
+
+/* serviceSection style start */
+#service .parectService{
+    /* background-color: var(--background-color); */
+    padding: 30px 10px;
+    box-shadow: 0 0 50px 0 rgba(21, 26, 50, 0.1);
+    background: var(--comon-colot);
+}
+
+#service .parectService .childService{
+    border-right: 4px solid var(--background-color);
+    padding: 5px 0;
+}
+
+#service .parectService .childService img:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+#service .parectService .childService h6{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    color: var(--text-color);
+}
+
+#service .parectService .childService h6:hover{
+    color: var(--1st-primary-color);
+    transition: 0.2s;
+}
+
+#service .parectService .childService p{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: var(--paragraph-color);
+}
+
+#service .parectService .childService p:hover{
+    color: var(--1st-primary-color);
+    transition: 0.2s;
+}
+
+
+/* serviceSection style end */
+
+
+
+/* bottomSection start */
+#bottom{
+    background-color: var(--black);
+}
+
+#bottom .socialMediaLink{
+    border-bottom: 1px solid var(--e0e0e0);
+}
+
+#bottom .socialMediaLink .icons{
+    padding: 10px 0;
+}
+
+#bottom .socialMediaLink .btmlogo{
+    padding: 10px 0;
+}
+
+#bottom .socialMediaLink .masterCard{
+    padding: 10px 0;
+}
+
+/* bottomSection end */
 
 
 
