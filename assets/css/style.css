@@ -1505,8 +1505,11 @@ nav .icone .bag .number-of-sales{
 
 
 /* serviceSection style start */
+#service{
+    z-index: 50;
+}
+
 #service .parectService{
-    /* background-color: var(--background-color); */
     padding: 30px 10px;
     box-shadow: 0 0 50px 0 rgba(21, 26, 50, 0.1);
     background: var(--comon-colot);
@@ -1546,7 +1549,7 @@ nav .icone .bag .number-of-sales{
 #service .parectService .childService p:hover{
     color: var(--1st-primary-color);
     transition: 0.2s;
-}
+} 
 
 
 /* serviceSection style end */
@@ -1556,23 +1559,153 @@ nav .icone .bag .number-of-sales{
 /* bottomSection start */
 #bottom{
     background-color: var(--black);
+    position: relative;
+    margin-top: 0px;
+}
+
+
+
+#bottom .parectService .childService p{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: var(--paragraph-color);
+}
+
+#bottom .parectService .childService p:hover{
+    color: var(--1st-primary-color);
 }
 
 #bottom .socialMediaLink{
     border-bottom: 1px solid var(--e0e0e0);
+    padding: 56px 0 76px 0;
 }
 
 #bottom .socialMediaLink .icons{
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
+
 #bottom .socialMediaLink .btmlogo{
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
 #bottom .socialMediaLink .masterCard{
-    padding: 10px 0;
+    padding: 20px 0;
 }
+
+#bottom .contactInfo{
+    padding: 70px 0px;
+}
+
+#bottom .contactInfo .myContact{
+    margin-top: 22px;
+}
+
+#bottom .contactInfo .support{
+    margin-top: 22px;
+}
+
+#bottom .contactInfo .openingTime{
+    margin-top: 22px;
+}
+
+#bottom .contactInfo .contactUs{
+    margin-top: 22px;
+}
+
+#bottom .contactInfo .newsLetter{
+    margin-top: 22px;
+}
+
+#bottom .contactInfo .details{
+    margin-top: 22px;
+}
+
+#bottom .contactInfo .heading h6{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 142%;
+    color: var(--comon-colot);
+}
+
+#bottom .contactInfo .details p a{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: var(--comon-colot);
+}
+
+#bottom .contactInfo .details p a:hover{
+    color: var(--1st-primary-color);
+    transition: 0.2s;
+}
+
+#bottom .contactInfo .details p span{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: var(--comon-colot);
+}
+
+#bottom .contactInfo .contactUs .details span a{
+    color: var(--1st-primary-color);
+    height: 24px;
+    width: 24px;
+}
+
+#bottom .contactInfo .contactUs .details span a:hover{
+    color: var(--2nd-primary-color);
+}
+
+#bottom .contactInfo .contactUs .details p{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: var(--comon-colot);
+}
+
+#bottom .contactInfo .newsLetter .details p{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: var(--comon-colot);
+}
+
+#bottom .contactInfo .newsLetter .details .submit{
+    display: flex;
+    margin-top: 30px;
+}
+
+#bottom .contactInfo .newsLetter .details .submit .inpute{
+    border: none;
+    background-color: var(--comon-colot);
+    padding: 11px 10px;
+}
+
+#bottom .contactInfo .newsLetter .details .submit .button{
+    border: none;
+    padding:  11px 10px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 167%;
+    text-align: center;
+    color: var(--comon-colot);
+    background-color: var(--1st-primary-color);
+}
+
+#bottom .contactInfo .newsLetter .details .submit .button:hover{
+    background-color: var(--2nd-primary-color);
+    transition: 0.2s;
+}
+
 
 /* bottomSection end */
 
