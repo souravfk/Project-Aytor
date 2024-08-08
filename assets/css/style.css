@@ -1681,6 +1681,7 @@ nav .icone .bag .number-of-sales{
 #bottom .contactInfo .newsLetter .details .submit{
     display: flex;
     margin-top: 30px;
+    width: 312px;
 }
 
 #bottom .contactInfo .newsLetter .details .submit .inpute{
