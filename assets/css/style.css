@@ -1557,7 +1557,7 @@ nav .icone .bag .number-of-sales{
 
 
 /* bottomSection start */
-#bottom{
+#footer{
     background-color: var(--black);
     position: relative;
     margin-top: 0px;
@@ -1565,7 +1565,7 @@ nav .icone .bag .number-of-sales{
 
 
 
-#bottom .parectService .childService p{
+#footer .parectService .childService p{
     font-family: var(--second-family);
     font-weight: 400;
     font-size: 16px;
@@ -1573,57 +1573,68 @@ nav .icone .bag .number-of-sales{
     color: var(--paragraph-color);
 }
 
-#bottom .parectService .childService p:hover{
+#footer .parectService .childService p:hover{
     color: var(--1st-primary-color);
 }
 
-#bottom .socialMediaLink{
+#footer .socialMediaLink{
     border-bottom: 1px solid var(--e0e0e0);
     padding: 56px 0 76px 0;
 }
 
-#bottom .socialMediaLink .icons{
+#footer .socialMediaLink .icons span a{
+    color: var(--comon-colot);
+    font-size: 30px;
+    padding: 10px;
+}
+
+#footer .socialMediaLink .icons span a:hover{
+    color: var(--1st-primary-color);
+    
+}
+
+#footer .socialMediaLink .icons{
     padding: 20px 0;
 }
 
 
-#bottom .socialMediaLink .btmlogo{
+#footer .socialMediaLink .btmlogo{
     padding: 20px 0;
 }
 
-#bottom .socialMediaLink .masterCard{
+#footer .socialMediaLink .masterCard{
     padding: 20px 0;
 }
 
-#bottom .contactInfo{
+#footer .contactInfo{
     padding: 70px 0px;
 }
 
-#bottom .contactInfo .myContact{
+#footer .contactInfo .myContact{
     margin-top: 22px;
 }
 
-#bottom .contactInfo .support{
+#footer .contactInfo .support{
     margin-top: 22px;
 }
 
-#bottom .contactInfo .openingTime{
+#footer .contactInfo .openingTime{
     margin-top: 22px;
 }
 
-#bottom .contactInfo .contactUs{
+#footer .contactInfo .contactUs{
     margin-top: 22px;
 }
 
-#bottom .contactInfo .newsLetter{
+#footer .contactInfo .newsLetter{
     margin-top: 22px;
 }
 
-#bottom .contactInfo .details{
+#footer .contactInfo .details{
     margin-top: 22px;
 }
 
-#bottom .contactInfo .heading h6{
+#footer .contactInfo .heading h6{
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 24px;
@@ -1631,7 +1642,7 @@ nav .icone .bag .number-of-sales{
     color: var(--comon-colot);
 }
 
-#bottom .contactInfo .details p a{
+#footer .contactInfo .details p a{
     font-family: var(--second-family);
     font-weight: 400;
     font-size: 16px;
@@ -1639,12 +1650,12 @@ nav .icone .bag .number-of-sales{
     color: var(--comon-colot);
 }
 
-#bottom .contactInfo .details p a:hover{
+#footer .contactInfo .details p a:hover{
     color: var(--1st-primary-color);
     transition: 0.2s;
 }
 
-#bottom .contactInfo .details p span{
+#footer .contactInfo .details p span{
     font-family: var(--second-family);
     font-weight: 400;
     font-size: 16px;
@@ -1652,17 +1663,17 @@ nav .icone .bag .number-of-sales{
     color: var(--comon-colot);
 }
 
-#bottom .contactInfo .contactUs .details span a{
+#footer .contactInfo .contactUs .details span a{
     color: var(--1st-primary-color);
     height: 24px;
     width: 24px;
 }
 
-#bottom .contactInfo .contactUs .details span a:hover{
+#footer .contactInfo .contactUs .details span a:hover{
     color: var(--2nd-primary-color);
 }
 
-#bottom .contactInfo .contactUs .details p{
+#footer .contactInfo .contactUs .details p{
     font-family: var(--second-family);
     font-weight: 400;
     font-size: 16px;
@@ -1670,7 +1681,7 @@ nav .icone .bag .number-of-sales{
     color: var(--comon-colot);
 }
 
-#bottom .contactInfo .newsLetter .details p{
+#footer .contactInfo .newsLetter .details p{
     font-family: var(--second-family);
     font-weight: 400;
     font-size: 16px;
@@ -1678,19 +1689,19 @@ nav .icone .bag .number-of-sales{
     color: var(--comon-colot);
 }
 
-#bottom .contactInfo .newsLetter .details .submit{
+#footer .contactInfo .newsLetter .details .submit{
     display: flex;
     margin-top: 30px;
     width: 312px;
 }
 
-#bottom .contactInfo .newsLetter .details .submit .inpute{
+#footer .contactInfo .newsLetter .details .submit .inpute{
     border: none;
     background-color: var(--comon-colot);
     padding: 11px 10px;
 }
 
-#bottom .contactInfo .newsLetter .details .submit .button{
+#footer .contactInfo .newsLetter .details .submit .button{
     border: none;
     padding:  11px 10px;
     font-family: var(--font-family);
@@ -1702,7 +1713,7 @@ nav .icone .bag .number-of-sales{
     background-color: var(--1st-primary-color);
 }
 
-#bottom .contactInfo .newsLetter .details .submit .button:hover{
+#footer .contactInfo .newsLetter .details .submit .button:hover{
     background-color: var(--2nd-primary-color);
     transition: 0.2s;
 }
@@ -1712,11 +1723,31 @@ nav .icone .bag .number-of-sales{
 
 
 
+/* bottom section style start */
+#bottom{
+    background: var(--black);
+    opacity: 0.9;
+    height: 70px;
+}
 
+#bottom .container .desinerInform{
+    text-align: center;
+}
 
+#bottom .container .desinerInform p{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    text-align: center;
+    color: var(--comon-colot);
+    line-height: 70px;
+}
 
-
-
+#bottom .container .desinerInform p span a{
+    color: var(--1st-primary-color);
+}
+/* bottom section style end */
 
 
 /* ====================HOME PAGE END==================== */
