@@ -1846,7 +1846,6 @@ nav .icone .bag .number-of-sales{
 #footer .contactInfo .newsLetter .details .submit{
     display: flex;
     margin-top: 30px;
-    width: 312px;
 }
 
 #footer .contactInfo .newsLetter .details .submit .inpute{
@@ -1902,6 +1901,230 @@ nav .icone .bag .number-of-sales{
     color: var(--1st-primary-color);
 }
 /* bottom section style end */
+
+
+
+/* =============secondFooter style start===================== */
+#secondFooter{
+    background: var(--bg);
+}
+
+#secondFooter .container .submitInfo{
+    padding: 100px 0 70px 0;
+    border-bottom: 1px solid var(--e0e0e0);
+}
+
+#secondFooter .container .submitInfo .information h3{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 128%;
+    color: var(--text-color);
+}
+
+#secondFooter .container .submitInfo .information p{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: var(--paragraph-color);
+    margin-top: 6px;
+}
+
+
+#secondFooter .container .submitInfo .email .submit{
+    display: flex;
+    margin-top: 23px;
+}
+
+#secondFooter .container .submitInfo .email .submit .inpute{
+    border: none;
+    background-color: var(--comon-colot);
+    padding: 10px 40px 10px 10px;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: #8f8f8f;
+    
+}
+
+#secondFooter .container .submitInfo .email .submit .button{
+    border: none;
+    padding: 10px 13px 10px 13px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 167%;
+    text-align: center;
+    color: var(--comon-colot);
+    background-color: var(--1st-primary-color);
+}
+
+#secondFooter .container .contactInfo{
+    padding: 70px 0;
+    border-bottom: 1px solid var(--e0e0e0);
+}
+
+
+#secondFooter .container .contactInfo .socialMediaLink p{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: var(--paragraph-color);
+    margin: 20px 0 25px 0;
+}
+
+#secondFooter .container .contactInfo .socialMediaLink .icn span a{
+    color: var(--paragraph-color);
+    width: 18px;
+    height: 19px;
+    margin-right: 26px;
+}
+
+#secondFooter .container .contactInfo .socialMediaLink .icn span a:hover{
+    color: var(--1st-primary-color);
+}
+
+#secondFooter .container .contactInfo .MyAccount{
+    margin-top: 16px;
+}
+
+
+#secondFooter .container .contactInfo .MyAccount .heading h6{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 142%;
+    color: var(--text-color);
+}
+
+#secondFooter .container .contactInfo .MyAccount .details{
+    margin-top: 22px;
+}
+
+#secondFooter .container .contactInfo .MyAccount .details p a{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: var(--paragraph-color);
+}
+
+#secondFooter .container .contactInfo .MyAccount .details p a:hover{
+    color: var(--1st-primary-color);
+}
+
+#secondFooter .container .contactInfo .support{
+    margin-top: 16px;
+}
+
+
+#secondFooter .container .contactInfo .support .heading h6{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 142%;
+    color: var(--text-color);
+}
+
+#secondFooter .container .contactInfo .support .details p a{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: var(--paragraph-color);
+}
+
+#secondFooter .container .contactInfo .support .details{
+    margin-top: 22px;
+}
+
+#secondFooter .container .contactInfo .support .details p a:hover{
+    color: var(--1st-primary-color);
+}
+
+#secondFooter .container .contactInfo .shop{
+    margin-top: 16px;
+}
+
+#secondFooter .container .contactInfo .shop .heading h6{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 142%;
+    color: var(--text-color);
+}
+
+#secondFooter .container .contactInfo .shop .details{
+    margin-top: 22px;
+}
+
+#secondFooter .container .contactInfo .shop .details p a{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: var(--paragraph-color);
+}
+
+#secondFooter .container .contactInfo .shop .details p a:hover{
+    color: var(--1st-primary-color);
+}
+
+#secondFooter .container .contactInfo .contactUs{
+    margin-top: 16px;
+}
+
+
+#secondFooter .container .contactInfo .contactUs .heading h6{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 142%;
+    color: var(--text-color);
+}
+
+#secondFooter .container .contactInfo .contactUs .details{
+    margin-top: 22px;
+}
+
+#secondFooter .container .contactInfo .contactUs .details p{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: var(--paragraph-color);
+}
+
+#secondFooter .container .contactInfo .contactUs .details span a{
+    color: var(--1st-primary-color);
+}
+
+#secondFooter .container .contactInfo .contactUs .details span a:hover{
+    color: var(--2nd-primary-color);
+}
+/* =============secondFooter style end===================== */
+
+
+/* footerBottom section style start */
+#footerBottom {
+    background: var(--bg);
+}
+
+#footerBottom .container .desinerInform p{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: var(--paragraph-color);
+}
+
+#footerBottom .container .desinerInform span a{
+    color: var(--1st-primary-color);
+}
+/* footerBottom section style end */
 
 
 /* ====================HOME PAGE END==================== */
