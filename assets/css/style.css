@@ -2128,3 +2128,499 @@ nav .icone .bag .number-of-sales{
 
 
 /* ====================HOME PAGE END==================== */
+
+
+
+
+
+/* =====================ABOUT PAGE START==================== */
+
+/* aboutBanner section start */
+#aboutBanner{
+     background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+#aboutBanner .headline{
+    text-align: center;
+    padding: 148px 0;
+}
+
+#aboutBanner .headline h2{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 121%;
+    text-align: center;
+    color: var(--comon-colot);
+}
+
+#aboutBanner .headline p{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    text-align: center;
+    color: var(--comon-colot);
+}
+/* aboutBanner section end */
+
+
+/* animationBanner section start */
+
+#animationBanner{
+    margin-top: 100px;
+}
+
+#animationBanner .container{
+    background-image: url(../images/About-Page-image/BG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#animationBanner .container .images{
+    position: relative;
+    z-index: 2;
+}
+
+#animationBanner .container .images::before{
+    position: absolute;
+    content: "";
+    height: 314px;
+    width: 284px;
+    border: 14px solid var(--bdbdbd);
+    bottom: 40px;
+    left: 0;
+    z-index: -1;
+    animation: movingX 8s linear infinite;
+}
+
+@keyframes movingX{
+    0%{
+        margin-left: 0;
+    }
+
+    50%{
+        margin-left: 80px;
+    }
+}
+
+
+#animationBanner .container .images img{
+    vertical-align: middle;
+    padding: 15px;
+}
+
+#animationBanner .container .contents{
+    padding: 76px 10px;
+}
+
+#animationBanner .container .contents .heading{
+    border-bottom: 1px solid var(--bdbdbd);
+}
+
+#animationBanner .container .contents .heading h3{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 128%;
+    color: var(--text-color);
+}
+
+#animationBanner .container .contents .heading p{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: var(--paragraph-color);
+    padding: 10px 0 28px 0;
+}
+
+#animationBanner .container .contents .list {
+    margin-top: 30px;
+    text-align: left;
+}
+
+#animationBanner .container .contents .list p{
+    padding: 10px;
+}
+
+#animationBanner .container .contents .list .ancore{
+    margin-top: 34px;
+}
+
+#animationBanner .container .contents .list .ancore a{
+    padding: 13px 10px 13px 18px;
+    background-color: var(--1st-primary-color);
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 167%;
+    text-align: center;
+    color: var(--comon-colot);
+}
+
+#animationBanner .container .contents .list .ancore a span{
+    padding: 0 8px 0 0;
+}
+
+#animationBanner .container .contents .list .ancore a:hover{
+    background-color: var(--2nd-primary-color);
+    transition: 0.2s;
+}
+
+
+/* animationBanner section end */
+
+
+/* spaceExtraButton section style start */
+#spaceExtraButton{
+    margin: 100px 0;
+}
+
+#spaceExtraButton .container .counterBox{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#spaceExtraButton .container .counterBox .counterIcone{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: var(--bdbdbd);
+    margin: auto;
+    line-height: 100px;
+}
+
+#spaceExtraButton .container .counterBox .counterIcone:hover{
+    background-color: var(--1st-primary-color);
+}
+
+
+#spaceExtraButton .container .counterBox .counterIcone img{
+    color: var(--3d-primary-color);
+}
+
+#spaceExtraButton .container .counterBox .counterTitle{
+    margin-top: 20px;
+}
+
+
+#spaceExtraButton .container .counterBox .counterTitle span{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 128%;
+    text-align: center;
+    color: var(--1st-primary-color);
+}
+
+#spaceExtraButton .container .counterBox .counterText{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    text-align: center;
+    color: var(--paragraph-color);
+}
+
+/* spaceExtraButton section style end */
+
+
+
+
+/* ourStory section style start */
+
+#ourStory{
+    margin: 100px 0;
+}
+
+#ourStory .container .storyText{
+    background-color: var(--bg);
+    padding: 0 34px;
+}
+
+#ourStory .container .storyText .text{
+    padding: 100px 0px;
+}
+
+#ourStory .container .storyText .text h3{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 128%;
+    color: var(--text-color);
+    
+}
+
+#ourStory .container .storyText .text p{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    text-align: justify;
+    color: var(--paragraph-color);
+    margin-top: 10px;
+}
+
+#ourStory .container .storyVideo{
+    height: 100%;
+   object-fit: cover;
+   object-position: center;
+}
+
+#ourStory .container .storyVideo .playButton{
+    position: relative;
+    height: 536px;
+}
+
+#ourStory .container .storyVideo .playButton .videoPlayButton{
+    position: absolute;
+    top: 45%;
+    right: 45%;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: var(--comon-colot);
+    text-align: center;
+    font-size: 34px;
+    line-height: 80px;
+    color: var(--1st-primary-color);
+    cursor: pointer;
+    z-index: 3;
+    transition: 0.5s;
+}
+
+#ourStory .container .storyVideo .playButton .videoPlayButton:hover{
+    background-color: var(--1st-primary-color);
+    color: var(--comon-colot);
+}
+
+#ourStory .container .storyVideo .playButton .videoPlayButton::before{
+    position: absolute;
+    content: "";
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: var(--comon-colot);
+    animation: playButtonSpam 3s infinite linear;
+    top: 0px;
+    right: 0px;
+    z-index: -3;
+}
+
+@keyframes playButtonSpam{
+    0%{
+      opacity: 0;
+      transform:scale(1);
+    }
+    30%{
+      opacity: 0.6;
+    }
+    100%{
+      opacity: 0;
+      transform: scale(1.8);
+    }
+}
+
+
+
+/* ourStory section style end */
+
+
+
+
+
+
+
+
+
+
+
+
+/* =====================ABOUT PAGE END==================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =====================BLOGE PAGE START==================== */
+
+/* blogeBanner section start */
+#blogeBanner{
+    background: var(--text-color);
+    opacity: 0.7;
+}
+
+#blogeBanner .headline{
+    text-align: center;
+    padding: 148px 0;
+}
+
+#blogeBanner .headline h2{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 121%;
+    text-align: center;
+    color: var(--comon-colot);
+}
+
+#blogeBanner .headline p{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    text-align: center;
+    color: var(--comon-colot);
+}
+/* blogeBanner section end */
+
+
+
+/* =====================BLOGE PAGE END==================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =====================BLOGE PAGE START==================== */
+
+/* contactBanner section start */
+#contactBanner{
+    background: var(--text-color);
+    opacity: 0.7;
+}
+
+#contactBanner .headline{
+    text-align: center;
+    padding: 148px 0;
+}
+
+#contactBanner .headline h2{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 121%;
+    text-align: center;
+    color: var(--comon-colot);
+}
+
+#contactBanner .headline p{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    text-align: center;
+    color: var(--comon-colot);
+}
+/* blogeBanner section end */
+
+/* =====================BLOGE PAGE END==================== */
+
+
+
+
+
+
+
+
+
+
+
+/* =====================PAGES PAGE START==================== */
+
+/* pagesBanner section start */
+#pagesBanner{
+    background: var(--text-color);
+    opacity: 0.7;
+}
+
+#pagesBanner .headline{
+    text-align: center;
+    padding: 148px 0;
+}
+
+#pagesBanner .headline h2{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 121%;
+    text-align: center;
+    color: var(--comon-colot);
+}
+
+#pagesBanner .headline p{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    text-align: center;
+    color: var(--comon-colot);
+}
+/* pagesBanner section end */
+
+/* =====================PAGES PAGE END==================== */
+
+
+
+
+
+
+
+
+
+
+
+
+/* =====================SHOP PAGE START==================== */
+
+/* shopBanner section start */
+#shopBanner{
+    background: var(--text-color);
+    opacity: 0.7;
+}
+
+#shopBanner .headline{
+    text-align: center;
+    padding: 148px 0;
+}
+
+#shopBanner .headline h2{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 121%;
+    text-align: center;
+    color: var(--comon-colot);
+}
+
+#shopBanner .headline p{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    text-align: center;
+    color: var(--comon-colot);
+}
+/* pagesBanner section end */
+
+/* =====================SHOP PAGE END==================== */
