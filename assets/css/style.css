@@ -324,6 +324,7 @@ nav .icone li{
     width: 24px;
     height: 24px;
     padding: 0 20px;
+    display: inline-block;
 }
 
 nav .icone li a{
@@ -438,6 +439,30 @@ nav .icone .bag .number-of-sales{
     border: 2px solid var(--comon-colot);
 }
 /* navigation secton end */
+
+/* offcanvash style start */
+
+.offcanvas .offcanvas-body ul li{
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.offcanvas .offcanvas-body ul li a{
+    color: var(--black);
+    padding: 10px 10px;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.offcanvas .offcanvas-body ul li a i{
+    margin-left: 10px;
+}
+
+.offcanvas .offcanvas-body ul li a:hover{
+    color: var(--1st-primary-color);
+}
+
+/* offcanvash style end */
 
 
 /* banner section start */
@@ -2183,13 +2208,25 @@ nav .icone .bag .number-of-sales{
     z-index: 2;
 }
 
+@media (max-width: 575.98px) {
+    #animationBanner .container .images::before{
+        left: 0;
+        top: 10px;
+        max-width: 250px;
+    }
+
+    #animationBanner .container .images img{
+        margin: 15px;
+    }
+}
+
 #animationBanner .container .images::before{
     position: absolute;
     content: "";
     height: 314px;
     width: 284px;
     border: 14px solid var(--bdbdbd);
-    bottom: 40px;
+    bottom: 76px;
     left: 0;
     z-index: -1;
     animation: movingX 8s linear infinite;
@@ -2208,7 +2245,7 @@ nav .icone .bag .number-of-sales{
 
 #animationBanner .container .images img{
     vertical-align: middle;
-    padding: 15px;
+    padding: 30px;
 }
 
 #animationBanner .container .contents{
@@ -2502,7 +2539,7 @@ nav .icone .bag .number-of-sales{
 
 
 
-/* =====================BLOGE PAGE START==================== */
+/* =====================CONTACT PAGE START==================== */
 
 /* contactBanner section start */
 #contactBanner{
@@ -2534,7 +2571,49 @@ nav .icone .bag .number-of-sales{
 }
 /* blogeBanner section end */
 
-/* =====================BLOGE PAGE END==================== */
+/* =====================CNTACT PAGE END==================== */
+
+
+
+
+
+
+
+
+
+/* =====================FEATURES PAGE START==================== */
+
+/* featuresBanner section start */
+#featuresBanner{
+    background: var(--text-color);
+    opacity: 0.7;
+}
+
+#featuresBanner .headline{
+    text-align: center;
+    padding: 148px 0;
+}
+
+#featuresBanner .headline h2{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 121%;
+    text-align: center;
+    color: var(--comon-colot);
+}
+
+#featuresBanner .headline p{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    text-align: center;
+    color: var(--comon-colot);
+}
+/* featuresBanner section end */
+
+/* =====================FEATURES PAGE END==================== */
 
 
 
