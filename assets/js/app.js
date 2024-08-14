@@ -170,3 +170,49 @@ $('.latestParentNews').slick({
  
   ]
 });
+
+
+
+
+
+//================================ABOUT PAGE STATR================================//
+
+$(".teamLeaderParent").slick({
+  slidesToShow: 4,
+  arrows: false,
+  autoplay: true,
+  autoplaySpeed: 4000,
+  responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 3,
+        }
+      },
+
+      {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 2,
+          }
+        },
+
+        {
+          breakpoint: 575,
+          settings: {
+            slidesToShow: 1,
+          }
+        },
+   
+    ]
+});
+
+
+
+
+
+
+
+
+//================================ABOUT PAGE END================================//
+

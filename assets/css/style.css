@@ -2201,6 +2201,7 @@ nav .icone .bag .number-of-sales{
     background-image: url(../images/About-Page-image/BG.png);
     background-size: cover;
     background-repeat: no-repeat;
+
 }
 
 #animationBanner .container .images{
@@ -2216,7 +2217,7 @@ nav .icone .bag .number-of-sales{
     }
 
     #animationBanner .container .images img{
-        margin: 15px;
+        padding: 15px;
     }
 }
 
@@ -2460,9 +2461,87 @@ nav .icone .bag .number-of-sales{
     }
 }
 
-
-
 /* ourStory section style end */
+
+
+
+
+/* teamLeader section style start */
+
+#teamLeader{
+    margin-top: 100px;
+}
+
+#teamLeader .container .heading{
+    text-align: center;
+    padding: 26px 0;
+}
+#teamLeader .container .heading h3{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 128%;
+    text-align: center;
+    color: var(--text-color);
+}
+
+#teamLeader .container .teamLeaderParent .teamLeaderChild .tmBox{
+    background-color: var(--bg);
+}
+
+#teamLeader .container .teamLeaderParent .teamLeaderChild .teamLeaderImage{
+    background-color: var(--e0e0e0);
+    overflow: hidden;
+}
+
+#teamLeader .container .teamLeaderParent .teamLeaderChild .teamLeaderImage img{
+    transition: 0.4s ease;
+}
+
+#teamLeader .container .teamLeaderParent .teamLeaderChild:hover .teamLeaderImage img{
+    transform: scale(1.04);
+}
+
+#teamLeader .container .teamLeaderParent .teamLeaderInformation{
+    text-align: center;
+    padding: 24px 0;
+}
+
+#teamLeader .container .teamLeaderParent .teamLeaderInformation h5{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: var(--text-color);
+}
+
+#teamLeader .container .teamLeaderParent .teamLeaderInformation p{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    text-align: center;
+    color: var(--text-color);
+    padding: 10px 0;
+}
+
+#teamLeader .container .teamLeaderParent .teamLeaderInformation p:hover{
+   color: var(--1st-primary-color);
+}
+
+#teamLeader .container .teamLeaderParent .teamLeaderInformation span a{
+    width: 20px;
+    height: 20px;
+    padding: 0 10px;
+    color: var(--paragraph-color);
+}
+
+#teamLeader .container .teamLeaderParent .teamLeaderInformation span a:hover{
+    color: var(--1st-primary-color);
+}
+
+/* teamLeader section style end */
 
 
 
