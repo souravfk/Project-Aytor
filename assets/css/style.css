@@ -41,6 +41,7 @@ h1,h2,h3,h4,h5,h6,p{
     --1d1d: #1d1d1d;
     --bdbdbd: #bdbdbd;
     --e0e0e0: #e0e0e0;
+    --1st-low-opacity: #ffeae8;
 }
 /* common color end */
 
@@ -2158,6 +2159,11 @@ nav .icone .bag .number-of-sales{
 
 
 
+
+
+
+
+
 /* =====================ABOUT PAGE START==================== */
 
 /* aboutBanner section start */
@@ -2246,11 +2252,12 @@ nav .icone .bag .number-of-sales{
 
 #animationBanner .container .images img{
     vertical-align: middle;
-    padding: 30px;
+    padding: 10px;
+    margin-top: 20px;
 }
 
 #animationBanner .container .contents{
-    padding: 76px 10px;
+    padding: 76px 20px;
 }
 
 #animationBanner .container .contents .heading{
@@ -2296,6 +2303,7 @@ nav .icone .bag .number-of-sales{
     line-height: 167%;
     text-align: center;
     color: var(--comon-colot);
+    transition: 0.2s;
 }
 
 #animationBanner .container .contents .list .ancore a span{
@@ -2304,7 +2312,6 @@ nav .icone .bag .number-of-sales{
 
 #animationBanner .container .contents .list .ancore a:hover{
     background-color: var(--2nd-primary-color);
-    transition: 0.2s;
 }
 
 
@@ -2325,19 +2332,16 @@ nav .icone .bag .number-of-sales{
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    background-color: var(--bdbdbd);
+    background-color: var(--1st-low-opacity);
     margin: auto;
     line-height: 100px;
+    transition: 0.2s;
 }
 
 #spaceExtraButton .container .counterBox .counterIcone:hover{
     background-color: var(--1st-primary-color);
 }
 
-
-#spaceExtraButton .container .counterBox .counterIcone img{
-    color: var(--3d-primary-color);
-}
 
 #spaceExtraButton .container .counterBox .counterTitle{
     margin-top: 20px;
@@ -2499,7 +2503,7 @@ nav .icone .bag .number-of-sales{
 }
 
 #teamLeader .container .teamLeaderParent .teamLeaderChild:hover .teamLeaderImage img{
-    transform: scale(1.04);
+    transform: scale(1.08);
 }
 
 #teamLeader .container .teamLeaderParent .teamLeaderInformation{
@@ -2545,6 +2549,79 @@ nav .icone .bag .number-of-sales{
 
 
 
+/* spaceBottom section style start */
+
+#spaceBottom{
+    margin: 65px 0 96px 0;
+}
+
+#spaceBottom .container{
+    width: 100%; 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#spaceBottom .container .contents{
+    text-align: center;
+}
+
+#spaceBottom .container .contents .firstImage img{
+    width: 138px;
+    height: 85px;
+
+}
+
+
+#spaceBottom .container .contents .secondImage img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+
+#spaceBottom .container .contents .text{
+    /* padding: 0 0 50px 0; */
+}
+
+
+#spaceBottom .container .contents .text p{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    text-align: center;
+    color: var(--paragraph-color);
+}
+
+
+#spaceBottom .container .contents .text h5{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 142%;
+    text-align: center;
+    color: var(--text-color);
+}
+
+
+#spaceBottom .container .contents .text span a{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    text-align: center;
+    color: var(--1st-primary-color);
+    padding-bottom: 30px;
+}
+
+
+
+
+/* spaceBottom section style end */
+
+
+
 
 
 
@@ -2555,6 +2632,9 @@ nav .icone .bag .number-of-sales{
 
 
 /* =====================ABOUT PAGE END==================== */
+
+
+
 
 
 
