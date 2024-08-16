@@ -1966,7 +1966,7 @@ nav .icone .bag .number-of-sales{
 #secondFooter .container .submitInfo .email .submit .inpute{
     border: none;
     background-color: var(--comon-colot);
-    padding: 10px 40px 10px 10px;
+    padding: 15px 35px 15px 10px;
     font-family: var(--second-family);
     font-weight: 400;
     font-size: 16px;
@@ -1977,7 +1977,7 @@ nav .icone .bag .number-of-sales{
 
 #secondFooter .container .submitInfo .email .submit .button{
     border: none;
-    padding: 10px 13px 10px 13px;
+    padding: 15px 5px;
     font-family: var(--font-family);
     font-weight: 600;
     font-size: 18px;
