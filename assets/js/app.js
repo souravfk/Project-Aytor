@@ -177,6 +177,8 @@ $('.latestParentNews').slick({
 
 //================================ABOUT PAGE STATR================================//
 
+//teamLeaderParent section
+
 $(".teamLeaderParent").slick({
   slidesToShow: 4,
   arrows: false,
@@ -206,6 +208,41 @@ $(".teamLeaderParent").slick({
    
     ]
 });
+
+
+//shoesSliker section 
+$(".shoesSlikerParent").slick({
+  slidesToShow: 6,
+  arrows: false,
+  autoplay: true,
+  dots: true,
+  dotsClass:'dots_shoes container',
+  autoplaySpeed: 7000,
+  responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 3,
+        }
+      },
+
+      {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 2,
+          }
+        },
+
+        {
+          breakpoint: 575,
+          settings: {
+            slidesToShow: 1,
+          }
+        },
+   
+    ]
+});
+
 
 
 

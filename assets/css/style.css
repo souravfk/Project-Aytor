@@ -2370,17 +2370,23 @@ nav .icone .bag .number-of-sales{
 
 
 
-
 /* ourStory section style start */
 
 #ourStory{
     margin: 100px 0;
+    background-color: var(--bg);
+    position: relative !important; 
 }
 
 #ourStory .container .storyText{
-    background-color: var(--bg);
     padding: 0 34px;
 }
+
+@media (max-width: 1199px) {
+    .storyText {
+          width: 100%;
+      }
+  }
 
 #ourStory .container .storyText .text{
     padding: 100px 0px;
@@ -2405,40 +2411,44 @@ nav .icone .bag .number-of-sales{
     margin-top: 10px;
 }
 
-#ourStory .container .storyVideo{
+.video{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
     height: 100%;
-   object-fit: cover;
-   object-position: center;
+
 }
 
-#ourStory .container .storyVideo .playButton{
-    position: relative;
-    height: 536px;
+.video img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-#ourStory .container .storyVideo .playButton .videoPlayButton{
+.video a .playbutton {
     position: absolute;
     top: 45%;
-    right: 45%;
+    left: 45%;
     height: 80px;
     width: 80px;
-    border-radius: 50%;
-    background-color: var(--comon-colot);
-    text-align: center;
-    font-size: 34px;
-    line-height: 80px;
+    font-size: 40px;
     color: var(--1st-primary-color);
-    cursor: pointer;
+    text-align: center;
+    line-height: 80px;
+    background-color: var(--comon-colot);
+    border-radius: 50%;
     z-index: 3;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
-#ourStory .container .storyVideo .playButton .videoPlayButton:hover{
+.video a .playbutton:hover{
     background-color: var(--1st-primary-color);
     color: var(--comon-colot);
 }
 
-#ourStory .container .storyVideo .playButton .videoPlayButton::before{
+.video a .playbutton::before{
     position: absolute;
     content: "";
     height: 80px;
@@ -2464,6 +2474,21 @@ nav .icone .bag .number-of-sales{
       transform: scale(1.8);
     }
 }
+
+@media (max-width: 1199px) {
+    .video {
+        position: relative;
+          width: 100%;
+          height: 100%;
+      }
+
+      .video a .playbutton{
+        top: 30%;
+        left: 40%;
+      }
+  }
+
+
 
 /* ourStory section style end */
 
@@ -2615,10 +2640,96 @@ nav .icone .bag .number-of-sales{
     padding-bottom: 30px;
 }
 
-
-
-
 /* spaceBottom section style end */
+
+
+/* shoesSliker section style start */
+#shoesSliker{
+    margin: 100px 0;
+}
+
+
+#shoesSliker .container .header{
+    text-align: center;
+}
+
+#shoesSliker .container .header h3{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 128%;
+    color: var(--text-color);
+    padding-bottom: 26px;
+}
+
+#shoesSliker .container .shoesSlikerParent .shoesSlikerChild .shoesSlikerCrd{
+    position: relative;
+}
+
+#shoesSliker .container .shoesSlikerParent .shoesSlikerChild .overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+    line-height: 130px;
+    background: var(--3d-primary-color);
+    opacity: 0.6;
+    transform: scale(0);
+    transition: 0.7s;
+}
+
+@media (max-width: 575.98px) {
+    #shoesSliker .container .shoesSlikerParent .shoesSlikerChild .overlay{
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        text-align: center;
+        line-height: 230px;
+    }
+}
+
+#shoesSliker .container .shoesSlikerParent .shoesSlikerChild:hover .overlay{
+    transform: scale(0.9);
+}
+
+
+#shoesSliker .shoesSlikerParent .container{
+    position: relative;
+}
+
+
+#shoesSliker .dots_shoes{
+    position: absolute;
+    bottom: 20%;
+    display: flex;
+    width: 200px;
+}
+
+
+#shoesSliker .dots_shoes li button{
+    background-color: var(--bdbdbd);
+    border: none;
+    border-radius: 5px;
+    width: 10px;
+    height: 6px;
+    color: transparent;
+    margin-right: 5px;
+    
+}
+
+#shoesSliker .dots_shoes .slick-active button{
+    background: var(--3d-primary-color);
+    border-radius: 5px;
+    width: 26px;
+    height: 6px;
+}
+
+
+
+/* shoesSliker section style end */
 
 
 
