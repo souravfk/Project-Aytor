@@ -16,6 +16,10 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <!-- RESPONSIVE CSS -->
     <link rel="stylesheet" href="./assets/css/responsive.css">
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/2.8.0/countUp.min.js" integrity="sha512-CVTKy2ABGi6IHJfP4ZBpk2/zhwgLjifRe6nGKfRSRY8OfRC9FT8hJqYUcrKJlHDFnsRoeJfqyLnqHgbgR/I+Bw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js" integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js" integrity="sha512-fHXRw0CXruAoINU11+hgqYvY/PcsOWzmj0QmcSOtjlJcqITbPyypc8cYpidjPurWpCnlB8VKfRwx6PIpASCUkQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
 </head>
 <body>
 
@@ -254,7 +258,7 @@
                       </svg>
                       </div>
                       <h2 class="counterTitle">
-                        <span class="counterNumber">22.3k</span>
+                        <span class="counter">22.3</span><span>k</span>
                       </h2>
                       <p class="counterText">Products for sale</p>
                     </div>
@@ -268,7 +272,7 @@
                       </svg>
                      </div>
                      <h2 class="counterTitle">
-                       <span class="counterNumber">14.6k</span>
+                       <span class="counter">14.6</span><span>k</span>
                      </h2>
                      <p class="counterText">Sellers active on shop</p>
                    </div>
@@ -282,7 +286,7 @@
                       </svg>
                     </div>
                     <h2 class="counterTitle">
-                      <span class="counterNumber">75.9k</span>
+                      <span class="counter">75.9</span><span>k</span>
                     </h2>
                     <p class="counterText">Customer active on store</p>
                   </div>
@@ -296,7 +300,7 @@
                       </svg>
                     </div>
                     <h2 class="counterTitle">
-                      <span class="counterNumber">35.5k</span>
+                      <span class="counter">35.5</span><span>k</span>
                     </h2>
                     <p class="counterText">Annual gross sales</p>
                   </div>
@@ -842,15 +846,26 @@
     
     <!-- JQUERY 3.7.1 JS -->
     <script src="./assets/js/jquery-3.7.1.min.js"></script>
+    <script src="./assets/js/jquery-2.2.4.min.js"></script>
     <!-- BOOTSTRAP JS -->
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
     <!-- SLICK JS -->
-     <script src="./assets/js/slick.min.js"></script>
-     <!-- timmer js -->
-      <script src="./assets/js/timmer.js"></script>
-     
+    <script src="./assets/js/slick.min.js"></script>
+    <!-- timmer js -->
+    <script src="./assets/js/timmer.js"></script>
+    <!-- couner up -->
+    <script src="./assets/js/waypoints.min.js"></script>
+    <script src="./assets/js/jquery.counterup.min.js"></script>
+    
     <!-- APP JS -->
      <script src="./assets/js/app.js"></script>
+
+     <script>
+        $('.counter').counterUp({
+          delay: 20,
+          time: 2000
+       });
+    </script>
     
 </body>
 </html>
