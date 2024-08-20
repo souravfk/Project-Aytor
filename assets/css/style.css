@@ -2944,13 +2944,16 @@ nav .icone .bag .number-of-sales{
 
 /* shopBanner section start */
 #shopBanner{
-    background: var(--text-color);
-    opacity: 0.7;
+    background-image: url(../images/Shop-page-img/shopBanner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 
 #shopBanner .headline{
     text-align: center;
-    padding: 148px 0;
+    padding: 150px 0;
+    justify-content: center;
 }
 
 #shopBanner .headline h2{
@@ -2971,5 +2974,150 @@ nav .icone .bag .number-of-sales{
     color: var(--comon-colot);
 }
 /* pagesBanner section end */
+
+
+
+/* displayProduct section style start */
+
+#displayProduct{
+    margin: 100px 0;
+}
+
+
+#displayProduct .container .productPart .productSliker{
+    margin-top: 40px;
+}
+
+
+#displayProduct .container .productPart .productSliker .productImage{
+    position: relative;
+    background-color: var(--bdbdbd);
+}
+
+#displayProduct .container .productPart .productSliker .productImage img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 340px;
+    transition: 0.5s;
+}
+
+#displayProduct .container .productPart .productSliker:hover img{
+    transform: scale(1.1);
+}
+
+
+#displayProduct .container .productPart .productSliker .productCondition{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 0 23px;
+    background-color: var(--1st-primary-color);
+    transition: 0.3s;
+}
+
+#displayProduct .container .productPart .productSliker .productCondition .condition{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 162%;
+    color: var(--comon-colot);
+}
+
+#displayProduct .container .productPart .productSliker .productCondition:hover{
+    background-color: var(--2nd-primary-color);
+}
+
+#displayProduct .container .productPart .productSliker .iconeOverlay{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+
+#displayProduct .container .productPart .productSliker .iconeOverlay li a{
+    display: block;
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    background-color: var(--black);
+    text-align: center;
+    line-height: 36px;
+    color: var(--comon-colot);
+    margin-bottom: 10px;
+    transition: 0.3s ease;
+}
+
+#displayProduct .container .productPart .productSliker .iconeOverlay li:hover a{
+    background-color: var(--1st-primary-color);
+    color: var(--comon-colot);
+}
+
+#displayProduct .container .productPart .productSliker .iconeOverlay li{
+    transform: translateX(-70%);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+}
+
+#displayProduct .container .productPart .productSliker:hover .iconeOverlay li{
+    transform: translateX(0%);
+    opacity: 1;
+    visibility: visible;
+}
+
+#displayProduct .container .productPart .productSliker .iconeOverlay li:nth-child(2){
+    transition-delay: 0.2s;
+}
+
+#displayProduct .container .productPart .productSliker .iconeOverlay li:nth-child(3){
+    transition-delay: 0.3s;
+}
+
+#displayProduct .container .productPart .productSliker .iconeOverlay li:nth-child(4){
+    transition-delay: 0.4s;
+}
+
+
+#displayProduct .container .productPart .productSliker .details{
+    padding: 20px 0 5px 0;
+}
+
+#displayProduct .container .productPart .productSliker .details .txt p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156%;
+    color: var(--text-color);
+} 
+
+#displayProduct .container .productPart .productSliker .details .txt span{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    color: var(--paragraph-color);
+}
+
+
+#displayProduct .container .productPart .productSliker .details .star{
+    text-align: center;
+    color: var(--1st-primary-color);
+}
+
+#displayProduct .container .productPart .productSliker .details .star .num{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    color: var(--paragraph-color);
+}
+
+
+
+/* displayProduct section style end */
+
+
+
+
 
 /* =====================SHOP PAGE END==================== */

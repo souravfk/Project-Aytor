@@ -183,6 +183,8 @@ $(".teamLeaderParent").slick({
   slidesToShow: 4,
   arrows: false,
   autoplay: true,
+  prevArrow:"",
+  nextArrow:"",
   autoplaySpeed: 5000,
   responsive: [
       {
@@ -252,4 +254,14 @@ $(".shoesSlikerParent").slick({
 
 
 //================================ABOUT PAGE END================================//
+
+
+
+
+
+
+
+
+//=============================Shop Page start==================================//
+
 
