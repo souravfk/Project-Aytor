@@ -2291,7 +2291,8 @@ nav .icone .bag .number-of-sales{
 
 /* aboutBanner section start */
 #aboutBanner{
-     background-size: cover;
+    background-image: url(../images/About-Page-image/aboutBackgroundImage.webp);
+    background-size: cover;
     background-repeat: no-repeat; 
 }
 
@@ -3031,6 +3032,55 @@ nav .icone .bag .number-of-sales{
 
 #displayProduct{
     margin: 100px 0;
+}
+
+#displayProduct .container .topPart .icone{
+    display: flex;
+}
+
+#displayProduct .container .topPart .txt {
+    position: relative;
+    border-bottom: 3px solid var(--background-color);
+    margin-left: 10px;
+}
+
+#displayProduct .container .topPart .txt p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    text-align: center;
+    color: var(--paragraph-color);
+}
+
+#displayProduct .container .topPart .txt::before{
+    position: absolute;
+    content: "";
+    bottom: -3px;
+    left: 0;
+    height: 3px;
+    width: 10%;
+    background-color: var(--paragraph-color);
+    transition: 0.5s;
+}
+
+#displayProduct .container .topPart .txt:hover::before{
+    width: 80%;
+}
+
+
+#displayProduct .container .topPart .srce span{
+    background-color: var(--bg);
+    padding: 6px 0 6px 16px;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: var(--paragraph-color);
+}
+
+#displayProduct .container .topPart .srce span i{
+    padding: 0 16px 0 130px;
 }
 
 
