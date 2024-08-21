@@ -2208,8 +2208,8 @@ nav .icone .bag .number-of-sales{
 
 .video a .playbutton {
     position: absolute;
-    top: 40%;
-    left: 45%;
+    top: 50%;
+    left: 50%;
     height: 80px;
     width: 80px;
     font-size: 40px;
