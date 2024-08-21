@@ -1384,23 +1384,28 @@ nav .icone .bag .number-of-sales{
 
 /* thirdBanner section style start */
 
-#thirdBanner{
-    margin-top: 25px;
+/* #ourStory .container .storyText{
+    padding: 0 34px;
 }
 
+@media (max-width: 1199px) {
+    .storyText {
+          width: 100%;
+      }
+  } */
 
-#thirdBanner .container{  
-    width: 100%;
+#thirdBanner{
+    margin-top: 25px;
+    background-color: var(--bg);
+    position: relative;
 }
 
 #thirdBanner .container .contains{
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    background-color: var(--bg);
+    padding: 115px 0 88px 0;
+
 }
 
-#thirdBanner .container .contains .details h6{
+#thirdBanner .container .contains h6{
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
@@ -1408,7 +1413,7 @@ nav .icone .bag .number-of-sales{
     color: var(--paragraph-color);;
 }
 
-#thirdBanner .container .contains .details h3{
+#thirdBanner .container .contains h3{
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 36px;
@@ -1416,15 +1421,16 @@ nav .icone .bag .number-of-sales{
     color: var(--text-color);
 }
 
-#thirdBanner .container .contains .details p{
+#thirdBanner .container .contains p{
     font-family: var(--second-family);
     font-weight: 400;
     font-size: 16px;
     line-height: 175%;
     color: var(--paragraph-color);
+    padding: 16px 0 30px 0;
 }
 
-#thirdBanner .container .contains .details .btnAncore button{
+#thirdBanner .container .contains .btnAncore button{
     background-color: var(--black);
     border: none; 
     padding: 12px 0;
@@ -1434,7 +1440,7 @@ nav .icone .bag .number-of-sales{
     z-index: 3;
 }
 
-#thirdBanner .container .contains .details .btnAncore button a{
+#thirdBanner .container .contains .btnAncore button a{
     padding: 18px 27px;
 }
 
@@ -1487,6 +1493,20 @@ nav .icone .bag .number-of-sales{
 #thirdBanner .container .contains .btnAncore button a span{
     padding-left: 4px;
 }
+
+#thirdBanner .container .videoimage{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+
+}
+
+@media (max-width: 1199px) {
+    #thirdBanner .container .videoimage {
+          width: 100%;
+      }
+  }
 
 #thirdBanner .container .videoimage .images img{
     background-size: cover;
@@ -2164,6 +2184,109 @@ nav .icone .bag .number-of-sales{
 
 
 
+
+
+
+
+
+/* ===========COMMON========= */
+.video{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+
+}
+
+.video img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.video a .playbutton {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    height: 80px;
+    width: 80px;
+    font-size: 40px;
+    color: var(--1st-primary-color);
+    text-align: center;
+    line-height: 80px;
+    background-color: var(--comon-colot);
+    border-radius: 50%;
+    z-index: 3;
+    transition: 0.3s;
+}
+
+.video a .playbutton:hover{
+    background-color: var(--1st-primary-color);
+    color: var(--comon-colot);
+}
+
+.video a .playbutton::before{
+    position: absolute;
+    content: "";
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: var(--comon-colot);
+    animation: playButtonSpam 3s infinite linear;
+    top: 0px;
+    right: 0px;
+    z-index: -3;
+}
+
+@keyframes playButtonSpam{
+    0%{
+      opacity: 0;
+      transform:scale(1);
+    }
+    30%{
+      opacity: 0.6;
+    }
+    100%{
+      opacity: 0;
+      transform: scale(1.8);
+    }
+}
+
+@media (max-width: 1199px) {
+    .video {
+        position: relative;
+          width: 100%;
+          height: 100%;
+      }
+
+      .video a .playbutton{
+        top: 30%;
+        left: 40%;
+      }
+  }
+/* ===========COMMON END========= */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* =====================ABOUT PAGE START==================== */
 
 /* aboutBanner section start */
@@ -2411,85 +2534,6 @@ nav .icone .bag .number-of-sales{
     margin-top: 10px;
 }
 
-.video{
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 50%;
-    height: 100%;
-
-}
-
-.video img{
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.video a .playbutton {
-    position: absolute;
-    top: 45%;
-    left: 45%;
-    height: 80px;
-    width: 80px;
-    font-size: 40px;
-    color: var(--1st-primary-color);
-    text-align: center;
-    line-height: 80px;
-    background-color: var(--comon-colot);
-    border-radius: 50%;
-    z-index: 3;
-    transition: 0.3s;
-}
-
-.video a .playbutton:hover{
-    background-color: var(--1st-primary-color);
-    color: var(--comon-colot);
-}
-
-.video a .playbutton::before{
-    position: absolute;
-    content: "";
-    height: 80px;
-    width: 80px;
-    border-radius: 50%;
-    background-color: var(--comon-colot);
-    animation: playButtonSpam 3s infinite linear;
-    top: 0px;
-    right: 0px;
-    z-index: -3;
-}
-
-@keyframes playButtonSpam{
-    0%{
-      opacity: 0;
-      transform:scale(1);
-    }
-    30%{
-      opacity: 0.6;
-    }
-    100%{
-      opacity: 0;
-      transform: scale(1.8);
-    }
-}
-
-@media (max-width: 1199px) {
-    .video {
-        position: relative;
-          width: 100%;
-          height: 100%;
-      }
-
-      .video a .playbutton{
-        top: 30%;
-        left: 40%;
-      }
-  }
-
-
-
 /* ourStory section style end */
 
 
@@ -2581,10 +2625,16 @@ nav .icone .bag .number-of-sales{
 }
 
 #spaceBottom .container{
-    width: 100%; 
+    background-image: url(../images/About-Page-image/spaceBottomBackgroundImage.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+@media (max-width: 575.98px) {
+    #spaceBottom .container{
+        background-image: none;
+    }
+  }
 
 #spaceBottom .container .contents{
     text-align: center;
