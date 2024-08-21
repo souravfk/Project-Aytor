@@ -3069,18 +3069,16 @@ nav .icone .bag .number-of-sales{
 }
 
 
-#displayProduct .container .topPart .srce span{
+#displayProduct .container .topPart .srce span select{
     background-color: var(--bg);
-    padding: 6px 0 6px 16px;
+    padding: 6px 10px;
     font-family: var(--second-family);
     font-weight: 400;
     font-size: 16px;
     line-height: 175%;
     color: var(--paragraph-color);
-}
-
-#displayProduct .container .topPart .srce span i{
-    padding: 0 16px 0 130px;
+    border: none;
+    cursor: pointer;
 }
 
 
