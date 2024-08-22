@@ -3034,6 +3034,10 @@ nav .icone .bag .number-of-sales{
     margin: 100px 0;
 }
 
+#displayProduct .container .topPart .showingPost .icone .image{
+    cursor: pointer;
+}
+
 #displayProduct .container .topPart .icone{
     display: flex;
 }
@@ -3210,7 +3214,64 @@ nav .icone .bag .number-of-sales{
     color: var(--paragraph-color);
 }
 
+#displayProduct .container .wraper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+#displayProduct .container .wraper .num {
+    display: flex;
+    justify-content: center;
+    margin: 0 0px;
+}
+
+#displayProduct .container .wraper .num .serialNumber{
+     height: 36px;
+     width: 36px;
+     border: 1px solid var(--a6aab7);
+     line-height: 36px;
+     text-align: center;
+     margin: 5px;
+}
+
+#displayProduct .container .wraper .num .serialNumber span a{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 167%;
+    text-align: center;
+    color: var(--paragraph-color);
+    padding: 8px 13px;
+}
+
+#displayProduct .container .wraper .num .serialNumber span a:hover{
+    background-color: var(--text-color);
+    color: var(--comon-colot);
+}
+
+
+#displayProduct .container .wraper .btn button{
+    background-color: transparent;
+    border: 1px solid var(--a6aab7);
+    height: 36px;
+    width: 81px;
+    
+}
+
+#displayProduct .container .wraper .btn button a{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    text-align: center;
+    color: var(--paragraph-color);
+    padding: 8px 13px;
+}
+
+#displayProduct .container .wraper .btn button a:hover{
+    color: var(--2nd-primary-color);
+}
 
 /* displayProduct section style end */
 
