@@ -2967,6 +2967,69 @@ nav .icone .bag .number-of-sales{
 
 
 
+/* contactArea section style start */
+
+#contactArea{
+    margin: 100px 0;
+}
+
+#contactArea .container .zoommeetimage{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    
+}
+
+@media (max-width: 575.98px) {
+    #contactArea .container .zoommeetimage{
+        width: 100%;
+    }
+}
+
+#contactArea .container h2{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 128%;
+    color: var(--text-color);
+    margin-bottom: 18px;
+}
+
+#contactArea .container .form-group{
+    margin-bottom: 24px;
+}
+
+#contactArea .container .form-group .style2{
+    border: none;
+    padding: 16px 20px;
+    background-color: var(--bg);
+}
+
+#contactArea .container .form-group:last-child{
+    text-align: center;
+}
+
+#contactArea .container .form-group button{
+    border: none;
+    background-color: var(--text-color);
+    padding: 13px 29px;
+}
+
+#contactArea .container .form-group button span{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 167%;
+    text-align: center;
+    color: var(--comon-colot);
+}
+
+/* contactArea section style end */
+
+
+
 
 
 
