@@ -3254,8 +3254,7 @@ nav .icone .bag .number-of-sales{
 #displayProduct .container .wraper .btn button{
     background-color: transparent;
     border: 1px solid var(--a6aab7);
-    height: 36px;
-    width: 81px;
+    padding: 5px 0;
     
 }
 
