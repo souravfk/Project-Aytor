@@ -2934,8 +2934,6 @@ nav .icone .bag .number-of-sales{
     font-size: 18px;
     line-height: 156%;
     color: var(--text-color);
-    padding-bottom: 5px;
-    
 }
 
 #contactBox .container .part .contactBox .contactInfo p{
@@ -3013,9 +3011,49 @@ nav .icone .bag .number-of-sales{
 
 #contactArea .container .form-group button{
     border: none;
-    background-color: var(--text-color);
+    background-color: var(--1st-primary-color);
     padding: 13px 29px;
+    position: relative;
+    z-index: 2;
 }
+
+#contactArea .container .form-group button::before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: var(--text-color);
+    top: 0;
+    left: 0;
+    mask-image: url(../images/Home-page-img/buttonMuskImage.png);
+    mask-size: 3000% 100%;
+    animation: maskani2 0.8s steps(29) backwards;
+    z-index: -2;
+
+}
+
+#contactArea .container .form-group button:hover::before{
+    animation: maskani1 0.8s steps(29) forwards;
+}
+
+@keyframes maskani1{
+    0%{
+        mask-position: 0 0;
+    }
+    100%{
+        mask-position: 100% 0;
+    }
+}
+
+@keyframes maskani2{
+    0%{
+        mask-position: 100% 0;
+    }
+    100%{
+        mask-position: 0 0;
+    }
+}
+
 
 #contactArea .container .form-group button span{
     font-family: var(--font-family);
@@ -3027,11 +3065,6 @@ nav .icone .bag .number-of-sales{
 }
 
 /* contactArea section style end */
-
-
-
-
-
 
 
 /* =====================CNTACT PAGE END==================== */
