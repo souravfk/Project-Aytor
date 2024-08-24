@@ -216,9 +216,9 @@ $(".teamLeaderParent").slick({
 $(".shoesSlikerParent").slick({
   slidesToShow: 6,
   arrows: false,
-  autoplay: true,
   dots: true,
   dotsClass:'dots_shoes container',
+  autoplay: true,
   autoplaySpeed: 7000,
   responsive: [
       {
@@ -265,3 +265,52 @@ $(".shoesSlikerParent").slick({
 //=============================Shop Page start==================================//
 
 
+
+
+//============================SHOP-DETAILS PAGE ===============================//
+
+
+$('.ParentTopBigSliker').slick({
+  infinite: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  fade: true,
+  autoplay: true,
+  autoplaySpeed: 7000,
+  asNavFor: '.ParentBottomSmallSliker'
+});
+$('.ParentBottomSmallSliker').slick({
+  infinite: true,
+  slidesToShow: 5,
+  slidesToScroll: 1,
+  centerMode: true,
+  centerPadding: 0,
+  autoplay: true,
+  autoplaySpeed: 7000,
+  prevArrow:`<span class="left"><i class="fa-solid fa-chevron-left"></i></span>`,
+  nextArrow:`<span class="right"><i class="fa-solid fa-chevron-right"></i></span>`,
+  responsive: [
+    {
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 3,
+      }
+    },
+
+    {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 3,
+        }
+      },
+
+      {
+        breakpoint: 575,
+        settings: {
+          slidesToShow: 3,
+        }
+      },
+ 
+  ]
+});

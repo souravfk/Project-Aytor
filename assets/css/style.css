@@ -3173,6 +3173,7 @@ nav .icone .bag .number-of-sales{
     background-image: url(../images/Shop-page-img/shopBanner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 
 }
 
@@ -3198,6 +3199,10 @@ nav .icone .bag .number-of-sales{
     line-height: 175%;
     text-align: center;
     color: var(--comon-colot);
+}
+
+#shopBanner .headline p span{
+    color: var(--2nd-primary-color);
 }
 /* pagesBanner section end */
 
@@ -3454,3 +3459,246 @@ nav .icone .bag .number-of-sales{
 
 
 /* =====================SHOP PAGE END==================== */
+
+
+
+
+
+
+
+
+/* ====================SHOP-DETAILS PAGE STYLE START==================== */
+#shopDetailsBanner{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#shopDetailsBanner .headline{
+    text-align: center;
+    padding: 150px 0;
+    justify-content: center;
+}
+
+#shopDetailsBanner .headline h2{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 121%;
+    text-align: center;
+    color: var(--comon-colot);
+}
+
+#shopDetailsBanner .headline p{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    text-align: center;
+    color: var(--comon-colot);
+}
+
+#shopDetailsBanner .headline p span{
+    color: var(--2nd-primary-color);
+}
+
+/* @media (max-width: 575.98px) {
+   
+} */
+
+
+/* leatherJacket section style start */
+
+#leatherJacket{
+   padding: 100px 0;
+}
+
+#leatherJacket .container .topDiv img{
+    padding: 2px;
+    background-color: var(--bdbdbd);
+}
+
+
+#leatherJacket .container .bottomDiv img{
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    padding: 0 10px;
+    transform: scale(0.8);
+    opacity: 0.8;
+    
+}
+
+#leatherJacket .container .bottomDiv{
+    padding-top: 20px;
+}
+
+#leatherJacket .container .bottomDiv .slick-center img{
+    padding: 2px;
+    transform: scale(1);
+    opacity: 1;
+    background-color: var(--bdbdbd);
+}
+
+#leatherJacket .right{
+    height: 50px;
+    width: 30px;
+    text-align: center;
+    line-height: 50px;
+    background: var(--3d-primary-color);
+    opacity: 0.5;
+    color: #fff;
+    position: absolute;
+    right: -15px;
+    top: 50%;
+    cursor: pointer;
+    transform: translateY(-50%);
+    transition: 0.5s;
+}
+
+#leatherJacket .right:hover{
+    background-color: var(--2nd-primary-color);
+    color: var(--black);
+
+}
+
+
+
+
+#leatherJacket .left{
+    height: 50px;
+    width: 30px;
+    text-align: center;
+    line-height: 50px;
+    background: var(--3d-primary-color);
+    opacity: 0.5;
+    color: #fff;
+    position: absolute;
+    left: -15px;
+    top: 50%;
+    cursor: pointer;
+    transform: translateY(-50%);
+    z-index: 30;
+    transition: 0.5s;
+}
+
+#leatherJacket .left:hover{
+    background-color: var(--2nd-primary-color);
+    color: var(--black);
+    
+}
+
+
+#leatherJacket .container .productAbout h2{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 128%;
+    color: var(--text-color);
+}
+
+
+#leatherJacket .container .productAbout .reating{
+    display: flex;
+    margin: 8px 0;
+}
+
+#leatherJacket .container .productAbout .reating .averageReating{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    color: var(--paragraph-color);
+}
+
+#leatherJacket .container .productAbout .reating .starReating{
+    color: var(--1st-primary-color);
+    padding: 0 10px;
+    border-right: 2px solid var(--bdbdbd);
+    
+}
+
+#leatherJacket .container .productAbout .reating a{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    color: var(--paragraph-color);
+    margin-left: 10px;
+}
+
+#leatherJacket .container .productAbout .reating a:hover{
+    color: var(--1st-primary-color);
+}
+
+#leatherJacket .container .productAbout .price{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    color: var(--text-color);
+    margin-bottom: 15px;
+}
+
+#leatherJacket .container .productAbout .price del{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    text-decoration: line-through;
+    color: var(--paragraph-color);
+    margin-left: 20px;
+}
+
+#leatherJacket .container .productAbout .aboutProduct{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    text-align: justify;
+    color: var(--paragraph-color);
+    border-bottom: 1px solid var(--e0e0e0);
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+}
+
+#leatherJacket .container .productAbout table{
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 24px;
+    align-items: center;
+    margin: -24px 0;
+}
+
+#leatherJacket .container .productAbout table label{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 156%;
+    color: var(--text-color);
+}
+
+#leatherJacket .container .productAbout table option{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    color: var(--paragraph-color);
+}
+
+#leatherJacket .container .productAbout table select{
+    width: 100%;
+    font-weight: 400;
+    padding-right: 54px;
+    padding: 0 20px;
+    height: 40px;
+}
+
+
+
+/* leatherJacket section style end */
+
+
+
+
+/* ====================SHOP-DETAILS PAGE STYLE END==================== */
