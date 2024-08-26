@@ -314,3 +314,28 @@ $('.ParentBottomSmallSliker').slick({
  
   ]
 });
+
+let quantityPlus = document.querySelector('.quantityPlus');
+let quantityMinus = document.querySelector('.quantityMinus');
+let qtyInput = document.querySelector('.qtyInput');
+
+let a = 1;
+quantityPlus.addEventListener('click', function(){
+  if (a === 10){
+    prompt("Sorry You Cannot By!");
+  }else{
+    a++;
+    qtyInput.innerHTML = a;
+  }
+});
+
+
+quantityMinus.addEventListener('click', function(){
+  if (a <= 1){
+    prompt("Minimum Level");
+  }else{
+    a--;
+    qtyInput.innerHTML = a;
+  }
+});
+
