@@ -3589,6 +3589,11 @@ nav .icone .bag .number-of-sales{
 }
 
 
+
+#leatherJacket .container .productAbout{
+    padding: 10px;
+}
+
 #leatherJacket .container .productAbout h2{
     font-family: var(--font-family);
     font-weight: 700;
@@ -3692,6 +3697,136 @@ nav .icone .bag .number-of-sales{
     padding-right: 54px;
     padding: 0 20px;
     height: 40px;
+}
+
+#leatherJacket .container .productAbout .quantityCard{
+    display: flex;
+    margin-top: 15px;
+    padding-bottom: 45px;
+    border-bottom: 1px solid var(--e0e0e0);
+}
+
+#leatherJacket .container .productAbout p{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--text-color);
+    margin-top: 40px;
+}
+
+#leatherJacket .container .productAbout .quantityCard button{
+    background-color: transparent;
+    display: inline-block;
+    padding: 0;
+    color: var(--paragraph-color);
+    font-size: 14px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid var(--e0e0e0);
+    transition: 0.3s;
+}
+
+#leatherJacket .container .productAbout .quantityCard button:hover{
+    color: var(--1st-primary-color);
+}
+
+#leatherJacket .container .productAbout .quantityCard input{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid var(--e0e0e0);
+    color: var(--paragraph-color);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#leatherJacket .container .productAbout .quantityCard .cart a{
+    font-size: 16px;
+    background-color: var(--1st-primary-color);
+    text-align: center;
+    line-height: 50px;
+    /* margin-left: 10px; */
+}
+
+#leatherJacket .container .productAbout .quantityCard .cart a span{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 175%;
+    color: var(--comon-colot);
+    background-color: var(--1st-primary-color);
+    padding: 16px 52px;
+}
+
+#leatherJacket .container .productAbout .quantityCard .wish{
+    text-align: center;
+    line-height: 50px;
+    /* margin: 0 10px; */
+}
+
+#leatherJacket .container .productAbout .quantityCard .wish a{
+    background: var(--3d-primary-color);
+    padding: 16px;
+    color: var(--comon-colot);
+    transition: 0.3s;
+}
+
+
+#leatherJacket .container .productAbout .quantityCard .wish a:hover{
+    background-color: var(--1st-primary-color);
+}
+
+#leatherJacket .container .productAbout .quantityCard .eye{
+
+    text-align: center;
+    line-height: 50px;
+}
+
+#leatherJacket .container .productAbout .quantityCard .eye a{
+    padding: 16px;
+    background: var(--3d-primary-color);
+    color: var(--comon-colot);
+    transition: 0.3s;
+}
+
+#leatherJacket .container .productAbout .quantityCard .eye a:hover{
+    background-color: var(--1st-primary-color);
+}
+
+
+
+#leatherJacket .container .productAbout .productInfo{
+    margin-top: 35px;
+}
+
+#leatherJacket .container .productAbout .productDetails span{
+    display:block;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 156%;
+    color: var(--text-color);
+}
+
+#leatherJacket .container .productAbout .productDetails span a{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156%;
+    color: var(--paragraph-color);
+    transition: 0.3s;
+}
+
+#leatherJacket .container .productAbout .productDetails span a:hover{
+    color: var(--1st-primary-color);
+}
+
+
+#leatherJacket .container .productAbout .productDetails .socialLinks span a{
+    color: var(--paragraph-color);
 }
 
 
