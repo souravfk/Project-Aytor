@@ -3542,14 +3542,14 @@ nav .icone .bag .number-of-sales{
 
 #leatherJacket .right{
     height: 50px;
-    width: 30px;
+    width: 20px;
     text-align: center;
     line-height: 50px;
     background: var(--3d-primary-color);
     opacity: 0.5;
     color: #fff;
     position: absolute;
-    right: -15px;
+    right: -12px;
     top: 50%;
     cursor: pointer;
     transform: translateY(-50%);
@@ -3567,14 +3567,14 @@ nav .icone .bag .number-of-sales{
 
 #leatherJacket .left{
     height: 50px;
-    width: 30px;
+    width: 20px;
     text-align: center;
     line-height: 50px;
     background: var(--3d-primary-color);
     opacity: 0.5;
     color: #fff;
     position: absolute;
-    left: -15px;
+    left: -12px;
     top: 50%;
     cursor: pointer;
     transform: translateY(-50%);
@@ -3708,6 +3708,7 @@ nav .icone .bag .number-of-sales{
     padding-bottom: 40px;
     border-bottom: 1px solid var(--border-color);
     margin-top: 80px;
+    border-bottom: 1px solid var(--e0e0e0);
 }
 
 #leatherJacket .container .productAbout .actions .quantity{
@@ -3793,12 +3794,6 @@ nav .icone .bag .number-of-sales{
     background-color: var(--1st-primary-color);
 }
 
-
-
-#leatherJacket .container .productAbout .productInfo{
-    margin-top: 0px;
-}
-
 #leatherJacket .container .productAbout .productDetails span{
     display:block;
     font-family: var(--font-family);
@@ -3833,8 +3828,149 @@ nav .icone .bag .number-of-sales{
 }
 
 
+#leatherJacket .container ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#leatherJacket .container .product-tab li{
+    background-color: var(--black);
+    color: var(--comon-colot);
+    height: 60px;
+    width: 290px;
+    text-align: center;
+    line-height: 60px;
+}
+
+#leatherJacket .container .product-tab li .link1{
+    background-color: var(--1st-primary-color);
+}
+
+#leatherJacket .container .product-tab li a{
+    background-color: var(--black);
+    color: var(--comon-colot);
+    font-size: 20px;
+    text-transform: capitalize;
+    display: inline-block;
+    height: 60px;
+    min-width: 300px;
+    line-height: 60px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    text-align: center;
+    transition: 0.3s;
+}
+
+#leatherJacket .container .product-tab li a:hover{
+    background-color: var(--1st-primary-color);
+    color: var(--black);
+}
+
+#leatherJacket .container .paragrap{
+    margin-top: 40px;
+}
+
+#leatherJacket .container .paragrap p{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    text-align: justify;
+    color: var(--paragraph-color);
+}
+
+#leatherJacket .container .paragrap .para2{
+    margin-top: 15px;
+}
 
 /* leatherJacket section style end */
+
+
+
+
+/* relatedProduct section style start */
+
+#relatedProduct {
+    padding: 100px 0;
+}
+
+#relatedProduct .container .relProductParent .productSliker .productBx .product{
+    position: relative;
+}
+
+#relatedProduct .container .relProductParent .productSliker .productBx .product img{
+    height: 230px;
+    transition: 0.5s;
+}
+
+#relatedProduct .container .relProductParent .productSliker .productBx .product .productCondition{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#relatedProduct .container .relProductParent .productSliker .productBx .product .iconeOverlay{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+#relatedProduct .container .relProductParent .productSliker .productBx:hover .product img{
+    transform: scale(1.1);
+}
+
+#relatedProduct .container .relProductParent .productSliker .productBx .product .productTxt{
+    margin-top: 30px;
+}
+
+#relatedProduct .right{
+    height: 50px;
+    width: 30px;
+    text-align: center;
+    line-height: 50px;
+    background: var(--a6aab7);
+    color: #fff;
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    cursor: pointer;
+    transform: translateY(-50%);
+    transition: 0.5s;
+}
+
+#relatedProduct .right:hover{
+    background-color: var(--2nd-primary-color);
+    color: var(--black);
+
+}
+
+#relatedProduct .left{
+    height: 50px;
+    width: 30px;
+    text-align: center;
+    line-height: 50px;
+    background: var(--a6aab7);
+    color: #fff;
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    cursor: pointer;
+    transform: translateY(-50%);
+    z-index: 30;
+    transition: 0.5s;
+}
+
+#relatedProduct .left:hover{
+    background-color: var(--2nd-primary-color);
+    color: var(--black);
+    
+}
+
+
+
+/* relatedProduct section style end */
 
 
 

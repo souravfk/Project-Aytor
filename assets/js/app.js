@@ -245,14 +245,6 @@ $(".shoesSlikerParent").slick({
     ]
 });
 
-
-
-
-
-
-
-
-
 //================================ABOUT PAGE END================================//
 
 
@@ -268,7 +260,6 @@ $(".shoesSlikerParent").slick({
 
 
 //============================SHOP-DETAILS PAGE ===============================//
-
 
 $('.ParentTopBigSliker').slick({
   infinite: true,
@@ -319,23 +310,56 @@ let quantityPlus = document.querySelector('.quantityPlus');
 let quantityMinus = document.querySelector('.quantityMinus');
 let qtyInput = document.querySelector('.qtyInput');
 
-let a = 1;
+let x = 1;
 quantityPlus.addEventListener('click', function(){
-  if (a === 10){
+  if (x === 10){
     prompt("Sorry You Cannot By!");
   }else{
-    a++;
-    qtyInput.innerHTML = a;
+    x++;
+    qtyInput.innerHTML = x;
   }
 });
 
 
 quantityMinus.addEventListener('click', function(){
-  if (a <= 1){
+  if (x <= 1){
     prompt("Minimum Level");
   }else{
-    a--;
-    qtyInput.innerHTML = a;
+    x--;
+    qtyInput.innerHTML = x;
   }
 });
+
+
+$(".relProductParent").slick({
+  slidesToShow: 4,
+  autoplay: true,
+  autoplaySpeed: 5000,
+  prevArrow:`<span class="left"><i class="fa-solid fa-chevron-left"></i></span>`,
+  nextArrow:`<span class="right"><i class="fa-solid fa-chevron-right"></i></span>`,
+  responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 3,
+        }
+      },
+
+      {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 2,
+          }
+        },
+
+        {
+          breakpoint: 575,
+          settings: {
+            slidesToShow: 1,
+          }
+        },
+   
+    ]
+});
+
 
