@@ -3898,10 +3898,11 @@ nav .icone .bag .number-of-sales{
 
 #relatedProduct .container .relProductParent .productSliker .productBx .product{
     position: relative;
+    background-color: var(--bg);
 }
 
 #relatedProduct .container .relProductParent .productSliker .productBx .product img{
-    height: 230px;
+    height: 100%;
     transition: 0.5s;
 }
 
@@ -3909,6 +3910,16 @@ nav .icone .bag .number-of-sales{
     position: absolute;
     top: 0;
     left: 0;
+    background-color: var(--1st-primary-color);
+    padding: 0 23px;
+}
+
+#relatedProduct .container .relProductParent .productSliker .productBx .product .productCondition span{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 162%;
+    color: var(--comon-colot);
 }
 
 #relatedProduct .container .relProductParent .productSliker .productBx .product .iconeOverlay{
@@ -3917,12 +3928,70 @@ nav .icone .bag .number-of-sales{
     right: 20px;
 }
 
+#relatedProduct .container .relProductParent .productSliker .productBx .product .iconeOverlay ul li a{
+    display: block;
+    height: 30px;
+    width: 30px;
+    background-color: var(--black);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 10px;
+    color: var(--comon-colot);
+    transition: 0.4s ease;
+}
+
+#relatedProduct .container .relProductParent .productSliker .productBx .product  .iconeOverlay li{
+    transform: translateX(-70%);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+}
+
+#relatedProduct .container .relProductParent .productSliker:hover .productBx .product  .iconeOverlay li{
+    transform: translateX(0%);
+    opacity: 1;
+    visibility: visible;
+}
+
+#relatedProduct .container .relProductParent .productSliker .productBx .product  .iconeOverlay li:nth-child(2){
+    transition-delay: 0.2s;
+}
+
+#relatedProduct .container .relProductParent .productSliker .productBx .product  .iconeOverlay li:nth-child(3){
+    transition-delay: 0.3s;
+}
+
+#relatedProduct .container .relProductParent .productSliker .productBx .product  .iconeOverlay li:nth-child(4){
+    transition-delay: 0.4s;
+}
+
+#relatedProduct .container .relProductParent .productSliker .productBx .product .iconeOverlay ul li a:hover{
+    background-color: var(--1st-primary-color);
+}
+
 #relatedProduct .container .relProductParent .productSliker .productBx:hover .product img{
     transform: scale(1.1);
 }
 
-#relatedProduct .container .relProductParent .productSliker .productBx .product .productTxt{
+#relatedProduct .container .relProductParent .productSliker .productBx .productTxt{
     margin-top: 30px;
+}
+
+#relatedProduct .container .relProductParent .productSliker .productBx .productTxt p{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 156%;
+    color: var(--text-color);
+}
+
+#relatedProduct .container .relProductParent .productSliker .productBx .productTxt span{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    color: var(--paragraph-color);
 }
 
 #relatedProduct .right{
@@ -3934,7 +4003,7 @@ nav .icone .bag .number-of-sales{
     color: #fff;
     position: absolute;
     right: 16px;
-    top: 50%;
+    top: 60%;
     cursor: pointer;
     transform: translateY(-50%);
     transition: 0.5s;
@@ -3955,7 +4024,7 @@ nav .icone .bag .number-of-sales{
     color: #fff;
     position: absolute;
     left: 16px;
-    top: 50%;
+    top: 60%;
     cursor: pointer;
     transform: translateY(-50%);
     z-index: 30;

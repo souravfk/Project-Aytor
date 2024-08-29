@@ -333,8 +333,9 @@ quantityMinus.addEventListener('click', function(){
 
 $(".relProductParent").slick({
   slidesToShow: 4,
+  slidesToScroll: 1,
   autoplay: true,
-  autoplaySpeed: 5000,
+  autoplaySpeed: 7000,
   prevArrow:`<span class="left"><i class="fa-solid fa-chevron-left"></i></span>`,
   nextArrow:`<span class="right"><i class="fa-solid fa-chevron-right"></i></span>`,
   responsive: [
