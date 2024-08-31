@@ -306,33 +306,34 @@ $('.ParentBottomSmallSliker').slick({
   ]
 });
 
-let quantityPlus = document.querySelector('.quantityPlus');
-let quantityMinus = document.querySelector('.quantityMinus');
-let qtyInput = document.querySelector('.qtyInput');
+let qtyMinus = document.querySelector('.qtyMinus');
+let qtyPlus = document.querySelector('.qtyPlus');
+let qty = document.querySelector('.qty');
 
-let x = 1;
-quantityPlus.addEventListener('click', function(){
-  if (x === 10){
+let a = 1;
+qtyPlus.addEventListener('click', function(){
+  if (a === 10){
     prompt("Sorry You Cannot By!");
   }else{
-    x++;
-    qtyInput.innerHTML = x;
+    a++;
+    qty.innerHTML = a;
   }
 });
 
 
-quantityMinus.addEventListener('click', function(){
-  if (x <= 1){
+qtyMinus.addEventListener('click', function(){
+  if (a <= 1){
     prompt("Minimum Level");
   }else{
-    x--;
-    qtyInput.innerHTML = x;
+    a--;
+    qty.innerHTML = a;
   }
 });
+
 
 
 $(".relProductParent").slick({
-  slidesToShow: 4,
+  slidesToShow: 3,
   slidesToScroll: 1,
   autoplay: true,
   autoplaySpeed: 7000,
@@ -363,4 +364,27 @@ $(".relProductParent").slick({
     ]
 });
 
+
+let  plus = document.querySelector('.quantity-plus');
+let  minus = document.querySelector('.quantity-minus');
+let  qtynum = document.querySelector('.qtynulet');
+
+let  x = 1;
+plus.addEventListener('click', function(){
+  if (x === 9){
+    prompt("Sorry You Cannot By");
+  }else{
+    x++;
+    qtynum.innerHTML = x;
+  }
+});
+
+minus.addEventListener('click', function(){
+  if (x <= 1){
+    prompt("Minimum Level");
+  }else{
+    x--;
+    qtynum.innerHTML = x;
+  }
+});
 

@@ -3751,7 +3751,7 @@ nav .icone .bag .number-of-sales{
     color: var(--1st-primary-color);
 }
 
-#leatherJacket .container .productAbout .actions .quantity .qtyInput{
+#leatherJacket .container .productAbout .actions .quantity .qty{
     width: 50px;
     height: 50px;
     line-height: 50px;
@@ -4096,7 +4096,7 @@ nav .icone .bag .number-of-sales{
 /*  productOrder section style start  */
 
 #productOrder {
-    padding: 100px 0;
+    padding-top: 100px;
 }
 
 #productOrder .e-commerce-cart-form{
@@ -4135,11 +4135,11 @@ nav .icone .bag .number-of-sales{
 }
 
 #productOrder .cart_table td{
-    border: none;
+    /* border: none; */
     border-bottom: 1px solid var(--bg);
     border-right: 1px solid var(--bg);
     padding: 30px 10px;
-    position: relative;
+    width: 200px;
     vertical-align: middle;
     font-family: var(--second-family);
     font-weight: 400;
@@ -4169,17 +4169,23 @@ nav .icone .bag .number-of-sales{
     opacity: 0.3;
 }
 
-#productOrder .cart_table .countProduct{
+#productOrder .cart_table .quantity{
+    width: 200px;
+}
+
+#productOrder .cart_table .qtynum{
     border: 1px solid var(--paragraph-color);
     border-radius: 3px;
     width: 70px;
     height: 30px;
     background: var(--comon-colot);
+    color: var(--paragraph-color);
     opacity: 0.3;
     margin: 0 10px;
     text-align: center;
     display: inline-block;
 }
+
 
 #productOrder .cart_table td .amount{
     font-family: var(--second-family);
@@ -4198,5 +4204,76 @@ nav .icone .bag .number-of-sales{
 }
 
 /*  productOrder section style end  */
+
+
+
+
+/* cartTotalsection style  start */
+#cartTotal{
+    margin-top: 40px;
+}
+
+#cartTotal h2{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 142%;
+    color: var(--text-color);
+}
+
+#cartTotal table{
+    border: 1px solid var(--bg);
+    width: 100%;
+    margin-top: 20px;
+}
+
+#cartTotal table tbody tr td:first-child{
+    border: 1px solid var(--e0e0e0);
+    padding: 17px 0px 17px 20px;
+    width: 40%;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    background: var(--bg);
+    color: var(--paragraph-color);
+}
+
+#cartTotal table tbody tr td{
+    padding: 17px 0px 17px 20px;
+    border: 1px solid var(--e0e0e0);
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    color: var(--paragraph-color);
+}
+
+#cartTotal .submitButton{
+    margin: 30px 0;
+}
+
+#cartTotal .submitButton a{
+   padding: 17px 0px 17px 27px;
+   background-color: var(--1st-primary-color);
+}
+
+#cartTotal .submitButton a span{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 175%;
+    color: var(--comon-colot);
+}
+
+#cartTotal .submitButton a span i{
+    padding: 0 23px 0 5px;
+}
+
+
+/* cartTotal section style  end */
+
+
+
+
 
 /* ====================CART PAGE STYLE END==================== */
