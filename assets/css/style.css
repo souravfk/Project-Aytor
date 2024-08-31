@@ -4036,12 +4036,167 @@ nav .icone .bag .number-of-sales{
     color: var(--black);
     
 }
-
-
-
 /* relatedProduct section style end */
 
-
-
-
 /* ====================SHOP-DETAILS PAGE STYLE END==================== */
+
+
+
+
+
+
+
+
+
+
+
+/* ====================CART PAGE STYLE START==================== */
+
+
+/* cardBanner section style start */
+#cartBanner{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#cartBanner .headline{
+    text-align: center;
+    padding: 150px 0;
+    justify-content: center;
+}
+
+#cartBanner .headline h2{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 121%;
+    text-align: center;
+    color: var(--comon-colot);
+}
+
+#cartBanner .headline p{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    text-align: center;
+    color: var(--comon-colot);
+}
+
+#cartBanner .headline p span{
+    color: var(--2nd-primary-color);
+}
+
+/* cardBanner section style end */
+
+
+
+
+/*  productOrder section style start  */
+
+#productOrder {
+    padding: 100px 0;
+}
+
+#productOrder .e-commerce-cart-form{
+    text-align: center;
+}
+
+#productOrder .cart_table {
+    border: 1px solid var(--bg);
+    margin-bottom: 45px;
+    margin: auto;
+    width: 100%;
+}
+
+#productOrder .cart_table thead {
+    background-color: var(--bg);
+    border-bottom: 2px solid var(--1st-primary-color);
+}
+
+@media (max-width: 767px) {
+    #productOrder .cart_table{
+        text-align: left;
+        min-width: auto;
+        border-collapse: separate;
+        border-spacing: 0 20px;
+    }
+}
+
+#productOrder .cart_table th {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 156%;
+    text-align: center;
+    color: var(--text-color);
+    padding: 16px 15px;
+}
+
+#productOrder .cart_table td{
+    border: none;
+    border-bottom: 1px solid var(--bg);
+    border-right: 1px solid var(--bg);
+    padding: 30px 10px;
+    position: relative;
+    vertical-align: middle;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    text-align: center;
+    color: var(--paragraph-color);
+}
+
+#productOrder .cart_table .cart-productname{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    text-align: center;
+    color: var(--paragraph-color);
+}
+
+#productOrder .cart_table .qut-btn{
+    background-color: transparent;
+    font-size: 16px;
+    border: 1px solid var(--paragraph-color);
+    border-radius: 3px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    opacity: 0.3;
+}
+
+#productOrder .cart_table .countProduct{
+    border: 1px solid var(--paragraph-color);
+    border-radius: 3px;
+    width: 70px;
+    height: 30px;
+    background: var(--comon-colot);
+    opacity: 0.3;
+    margin: 0 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+#productOrder .cart_table td .amount{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    text-align: center;
+    color: var(--paragraph-color);
+    padding: 0 10px;
+}
+
+#productOrder .cart_table td .remove{
+    height: 20px;
+    width: 16px;
+    color: var(--1st-primary-color);
+}
+
+/*  productOrder section style end  */
+
+/* ====================CART PAGE STYLE END==================== */

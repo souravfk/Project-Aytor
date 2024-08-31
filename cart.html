@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <!-- FAV ICON -->
+    <link rel="shortcut icon" href="./assets/images/fav-icone.png">
+    <!-- FONT AWESOME -->
+     <link rel="stylesheet" href="./assets/css/fontawesome all.min.css">
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <!-- SLICK SLIDER CSS -->
+    <link rel="stylesheet" href="./assets/css/slick.min.css">
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- RESPONSIVE CSS -->
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+<body>
+
+    
+    <!-- header div start -->
+    <div class="header-top d-none d-lg-block">
+        <div class="container">
+          <div class="row align-items-center justify-content-between">
+                <div class="col-auto">
+                  <p class="header-notice"><i class="fa-regular fa-paper-plane"></i>FREE SHIPING world wide for all orders over <span class="text-theme">$150</span></p>
+                </div>
+                <div class="col-auto">
+                   <div class="header-links">
+                      <ul>
+                         <li>
+                            <a href="#">Track Your Order</a>
+                         </li>
+                         <li>
+                         <a href="#" role="button" id="dropdownMenuLink1" data-bs-toggle="dropdown" aria-expanded="false">Language <i class="fa-solid fa-angle-down"></i></a>
+                          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink1">
+                           <li>
+                             <a href="#">German</a> 
+                             <a href="#">French</a> 
+                             <a href="#">Italian</a> 
+                             <a href="#">Latvian</a>
+                             <a href="#">Spanish</a> 
+                             <a href="#">Greek</a>
+                           </li>
+                          </ul>
+                         </li>
+                         <li>
+                          <a href="#" role="button" id="dropdownMenuLink2" data-bs-toggle="dropdown" aria-expanded="false">Currency <i class="fa-solid fa-angle-down"></i></a>
+                          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink2">
+                            <li>
+                              <a href="#">AED</a>
+                              <a href="#">BDT</a>
+                              <a href="#">ERN</a>
+                              <a href="#">EGP</a>
+                              <a href="#">EUR</a>
+                              <a href="#">GBP</a>
+                              <a href="#">USD</a>
+                            </li>
+                          </ul>
+                         </li>
+                         <li>
+                          <div class="header-social">
+                            <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a> <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a> <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a> <a target="_blank" href="https://pinterest.com/"><i class="fab fa-pinterest-p"></i></a>
+                          </div>
+                         </li>
+                      </ul>
+                </div>
+                </div>
+              </div>
+        </div>
+    </div>
+      <!-- header div end -->
+
+    <!-- navigation section start -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow w-100">
+        <div class="container">
+           <img src="./assets/images/Home-page-img/Logo.png" alt="">
+
+           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" aria-expanded="false">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item parents">
+                <a class="nav-link" href="index.html">Home </a>
+                <ul class="dropdown">
+                  <li><a href="#">Home One</a></li>
+                  <li><a href="#">Home Two</a></li>
+                  <li><a href="#">Home Three</a></li>
+                  <li><a href="#">Home Four</a></li>
+                  <li><a href="#">Home Five</a></li>
+                </ul>
+              </li>
+              <li class="nav-item parents">
+                <a class="nav-link" href="shop.html">Shop</a>
+                <ul class="dropdown">
+                  <li><a href="shop.html">Shop</a></li>
+                  <li><a href="shopdetails.html">Shop-Details</a></li>
+                  <li><a href="cart.html">Cart</a></li>
+                  <li><a href="compare.html">Compare</a></li>
+                  <li><a href="checkout.html">Checkout</a></li>
+                  <li><a href="wishlist.html">Wishlist</a></li>
+                </ul>
+              </li>
+              <li class="nav-item parents">
+                <a class="nav-link" href="pages.html">Pages</a>
+                <ul class="dropdown">
+                  <li><a href="#">Pages-1</a></li>
+                  <li><a href="#">Pages-2</a></li>
+                  <li><a href="#">Pages-3</a></li>
+                  <li><a href="#">Pages-4</a></li>
+                  <li><a href="#">Pages-5</a></li>
+                </ul>
+              </li>
+              <li class="nav-item parents">
+                <a class="nav-link" href="features.html">Features</a>
+                <ul class="dropdown">
+                  <li><a href="#">Features-1</a></li>
+                  <li><a href="#">Features-2</a></li>
+                  <li><a href="#">Features-3</a></li>
+                  <li><a href="#">Features-4</a></li>
+                  <li><a href="#">Features-5</a></li>
+                </ul>
+              </li>
+              <li class="nav-item parents">
+                <a class="nav-link" href="blogs.html">Blogs</a>
+                <ul class="dropdown">
+                  <li><a href="#">Blogs-1</a></li>
+                  <li><a href="#">Blogs-2</a></li>
+                  <li><a href="#">Blogs-3</a></li>
+                  <li><a href="#">Blogs-4</a></li>
+                  <li><a href="#">Blogs-5</a></li>
+                </ul>
+              </li>
+              <li class="nav-item parents">
+                <a class="nav-link" href="contact.html">Contact</a>
+                <ul class="dropdown">
+                  <li><a href="#">Contact-1</a></li>
+                  <li><a href="#">Contact-2</a></li>
+                  <li><a href="#">Contact-3</a></li>
+                  <li><a href="#">Contact-4</a></li>
+                  <li><a href="#">Contact-5</a></li>
+                 </ul>
+              </li>
+            </ul>
+          </div>
+          <ul class="icone d-none d-lg-block">
+            <li><a class="search" href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+            <li class="user"><a href="#"><i class="fa-regular fa-user"></i></a></li>
+            <li class="hert"><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+            <li class="bag">
+                <span class="number-of-sales">0</span>
+                <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+
+    <div class="search_box">
+        <form action="">
+            <span class="cross"><i class="fa-solid fa-xmark"></i></span>
+            <div class="btn-group">
+                <input class="input_box" type="text" placeholder="Scearch">
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </form>
+    </div>
+
+    <!-- offcanvash start -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header">
+        <img src="./assets/images/Home-page-img/Logo.png" alt="image not found">
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul>
+          <li><a href="index.html">Home <i class="fa-solid fa-angle-down"></i></a></li>
+          <li><a href="about.html">About <i class="fa-solid fa-angle-down"></i></a></li>
+          <li><a href="pages.html">Pages <i class="fa-solid fa-angle-down"></i></a></li>
+          <li><a href="features.html">Features <i class="fa-solid fa-angle-down"></i></a></li>
+          <li><a href="blogs.html">Bloges <i class="fa-solid fa-angle-down"></i></a></li>
+          <li><a href="shop.html">Shop <i class="fa-solid fa-angle-down"></i></a></li>
+          <li><a href="contact.html">Contact <i class="fa-solid fa-angle-down"></i></a></li>
+      </ul>
+      </div>
+    </div>
+    <!-- offcanvash end -->
+
+    <!-- navigation section end -->
+
+
+    <!-- pagesBanner section start -->
+    <section id="cartBanner" style="background-image: url(./assets/images/cart-page-image/cartBannerImage.png);">
+      <div class="headline">
+         <h2>Cart</h2>
+         <p>Home  /  <span>Cart</span></p>
+      </div>
+   </section>
+    <!-- pagesBanner section end -->
+
+
+    <!-- productOrder section start -->
+      <div id="productOrder">
+        <div class="container">
+          <form action="#" class="e-commerce-cart-form table-responsive">
+            <table class="cart_table">
+              <thead>
+                  <tr>
+                    <th class="cart-col-image">Image</th>
+                    <th class="cart-col-productname">Product Name</th>
+                    <th class="cart-col-price">Price/Unit</th>
+                    <th class="cart-col-quantity">Quantity</th>
+                    <th class="cart-col-total">Total</th>
+                    <th class="cart-col-remove">Remove</th>
+                  </tr>
+              </thead>
+            <tbody>
+                  <tr class="cart_item">
+                    <td data-title="Product">
+                      <a class="cart-productimage" href="">
+                        <img width="140" height="140" src="./assets/images/cart-page-image/jacket.jpg" alt="Image">
+                      </a>
+                    </td>
+                    <td data-title="Name">
+                      <a class="cart-productname" href="">Jacket Hoodie</a>
+                    </td>
+                    <td data-title="Price">
+                      <span class="amount"><bdi><span>$</span>18</bdi></span>
+                    </td>
+                    <td data-title="Quantity">
+                    <div class="quantity">
+                      <button class="quantity-minus qut-btn">
+                        <i class="fa-solid fa-minus"></i>
+                      </button> 
+                      <!-- <input type="number" class="countProduct" value="1" min="1" max="99">  -->
+                       <div class="countProduct">1</div>
+                        <!-- <button class="countProduct">1</button> -->
+                      <button class="quantity-plus qut-btn">
+                        <i class="fa-solid fa-plus"></i>
+                      </button>
+                    </div>
+                     </td>
+                     <td data-title="Total">
+                      <span class="amount">$130.00</span>
+                     </td>
+                     <td data-title="Remove">
+                      <a href="#" class="remove"><i class="fa-regular fa-trash-can"></i></a>
+                     </td>
+                  </tr>
+              </tbody>
+             </table>
+          </form>
+        </div>
+        
+              
+              <!-- </form><div class="row justify-content-end"><div class="col-md-8 col-lg-7 col-xl-6"><h2 class="h4 summary-title">Cart Totals</h2><table class="cart_totals"><tbody><tr><td>Cart Subtotal</td><td data-title="Cart Subtotal"><span class="amount"><bdi><span>$</span>47</bdi></span></td></tr><tr class="shipping"><th>Shipping and Handling</th><td data-title="Shipping and Handling"><ul class="woocommerce-shipping-methods list-unstyled"><li><input type="radio" id="free_shipping" name="shipping_method" class="shipping_method"> <label for="free_shipping">Free shipping</label></li><li><input type="radio" id="flat_rate" name="shipping_method" class="shipping_method" checked="checked"> <label for="flat_rate">Flat rate</label></li></ul><p class="woocommerce-shipping-destination">Shipping options will be updated during checkout.</p><form action="#" method="post"><a href="#" class="shipping-calculator-button">Change address</a><div class="shipping-calculator-form"><p class="form-row"><select class="form-select"><option value="AR">Argentina</option><option value="AM">Armenia</option><option value="BD" selected="selected">Bangladesh</option></select></p><p><select class="form-select"><option value="">Select an option…</option><option value="BD-05">Bagerhat</option><option value="BD-01">Bandarban</option><option value="BD-02">Barguna</option><option value="BD-06">Barishal</option></select></p><p class="form-row"><input type="text" class="form-control" placeholder="Town / City"></p><p class="form-row"><input type="text" class="form-control" placeholder="Postcode / ZIP"></p><p><button class="as-btn mask-btn"><span class="btn-text">Update</span><span class="btn-text-mask">Update</span></button></p></div></form></td></tr></tbody><tfoot><tr class="order-total"><td>Order Total</td><td data-title="Total"><strong><span class="amount"><bdi><span>$</span>47</bdi></span></strong></td></tr></tfoot></table><div class="wc-proceed-to-checkout mb-30"><a href="checkout.html" class="as-btn mask-btn"><span class="btn-text">Proceed to checkout</span><span class="btn-text-mask">Proceed to checkout</span></a></div></div></div></div></div> -->
+
+    <!--productOrder  section end -->
+
+
+    <!-- bottomSection start -->
+    <section id="secondFooter">
+        <div class="container">
+            <div class="submitInfo">
+                 <div class="row">
+                     <div class="col-lg-5 information">
+                         <h3>Subscribe to Our Newsletter!</h3> 
+                         <p>Authoritatively morph 24/7 potentialities with error-free partnerships. Objectively engineer multimedia.</p>                     
+                     </div>
+
+                     <div class="col-lg-2"></div>
+
+                     <div class="col-lg-5 email">
+                      <div class="submit">
+                          <input class="inpute" type="email" placeholder="Enter your email....">
+                          <button class="button">Subscribe</button>
+                       </div>
+                     </div>
+                 </div>
+            </div>
+
+            <div class="contactInfo">
+                <div class="row">
+                  <div class="socialMediaLink col-lg-3">
+                    <div class="heading">
+                      <img src="./assets/images/cart-page-image/Logo.png" alt="image not found">
+                    </div>
+                        <p>Progressively optimize effective ideas before turnkey process improvements. Proactively disseminate</p>
+                    <div class="icn">
+                      <span><a target="_blank" href="https://www.facebook.com/sourab.fakir.5"><i class="fa-brands fa-facebook-f"></i></a></span>
+                      <span><a target="_blank" href="https://x.com/souravFK/with_replies"><i class="fa-brands fa-twitter"></i></a></span>
+                      <span><a target="_blank" href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></span>
+                      <span><a target="_blank" href="https://www.pinterest.com/"><i class="fa-brands fa-pinterest-p"></i></a><span>
+                    </div>
+                  </div>
+                  <div class="MyAccount col-lg-2">
+                    <div class="heading">
+                      <h6>My Account</h6>
+                    </div>
+                    <div class="details">
+                      <p><a href="#"> > My Account</a></p>
+                      <p><a href="#"> > View Cart</a></p>
+                      <p><a href="#"> > Wishlist</a></p>
+                      <p><a href="#"> > Compare</a></p>
+                      <p><a href="#"> > New Products</a></p>
+                    </div>
+                  </div>
+                  <div class="support col-lg-2">
+                    <div class="heading">
+                      <h6>Support</h6>
+                    </div>
+                    <div class="details">
+                      <p><a href="#"> > Help</a></p>
+                      <p><a href="#"> > Contact Us</a></p>
+                      <p><a href="#"> > Feedback</a></p>
+                      <p><a href="#"> > Customer Service</a></p>
+                      <p><a href="#"> > Store Locations</a></p>
+                    </div>
+                  </div>
+                  <div class="shop col-lg-2">
+                    <div class="heading">
+                      <h6>Shop</h6>
+                    </div>
+                    <div class="details">
+                      <p><a href="#"> > Men’s Shopping</a></p>
+                      <p><a href="#"> > Women’s Shopping</a></p>
+                      <p><a href="#"> > Kids’ Shopping</a></p>
+                      <p><a href="#"> > Discounts</a></p>
+                      <p><a href="#"> > New Arrivels</a></p>
+                    </div>
+                  </div>
+                  <div class="contactUs col-lg-3">
+                      <div class="heading">
+                        <h6>Contact Us</h6>
+                      </div>
+                       <div class="details">
+                          <div class="row">
+                            <div class="col-2">
+                              <span><a href="#"><i class="fa-solid fa-location-dot"></i></a></span>
+                            </div>
+                            <div class="col-10">
+                              <p>830 Broad way, New York, NY 10003,
+                                United States</p>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-2">
+                              <span><a href="#"><i class="fa-solid fa-phone"></i></a></span>
+                            </div>
+                            <div class="col-10">
+                              <p>+18008660286</p>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-2">
+                              <span><a href="#"><i class="fa-solid fa-envelope"></i></a></span>
+                            </div>
+                            <div class="col-10">
+                              <span>
+                                <p>aetor.info@gmail.com</p>
+                                <p>info@aetor.com</p>
+                              </span>
+                            </div>
+                          </div>
+                       </div>
+                  </div>
+                
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- bottomSection end -->
+
+
+    <!-- botttom section start -->
+     <section id="footerBottom">
+        <div class="container">
+            <div class="row">
+              <div class="col-lg-5 p-3 desinerInform">
+                <p>© 2022 All Rights Reserved <span><a href="#">Aytor</a></span> By <span><a href="#">Angfuzsoft</a></span>.</p>
+            </div>
+            <div class="col-lg-3"></div>
+
+            <div class="col-lg-4 crd p-3">
+              <img src="./assets/images/cart-page-image/masterCard.png" alt="">
+            </div>
+            </div>
+        </div>
+     </section>
+    <!-- botttom section end -->
+
+
+    
+    <!-- JQUERY 3.7.1 JS -->
+    <script src="./assets/js/jquery-3.7.1.min.js"></script>
+    <!-- BOOTSTRAP JS -->
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <!-- SLICK JS -->
+     <script src="./assets/js/slick.min.js"></script>
+     <!-- timmer js -->
+      <script src="./assets/js/timmer.js"></script>
+     
+    <!-- APP JS -->
+     <script src="./assets/js/app.js"></script>
+    
+</body>
+</html>
