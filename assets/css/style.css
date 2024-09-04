@@ -42,6 +42,7 @@ h1,h2,h3,h4,h5,h6,p{
     --bdbdbd: #bdbdbd;
     --e0e0e0: #e0e0e0;
     --1st-low-opacity: #ffeae8;
+    --green: #29CC00;
 }
 /* common color end */
 
@@ -4277,3 +4278,373 @@ nav .icone .bag .number-of-sales{
 
 
 /* ====================CART PAGE STYLE END==================== */
+
+
+
+
+
+
+
+
+
+
+/* ====================CPMPARE PAGE STYLE START==================== */
+
+/* compareBanner section style start */
+#compareBanner{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#compareBanner .headline{
+    text-align: center;
+    padding: 150px 0;
+    justify-content: center;
+}
+
+#compareBanner .headline h2{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 121%;
+    text-align: center;
+    color: var(--comon-colot);
+}
+
+#compareBanner .headline p{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    text-align: center;
+    color: var(--comon-colot);
+}
+
+#compareBanner .headline p span{
+    color: var(--2nd-primary-color);
+}
+
+/* compareBanner section style end */
+
+
+/* compareProductTable section style start */
+
+#compareProductTable{
+    padding: 100px 0;
+}
+
+#compareProductTable .container .productSearchForm{
+    border: 1px solid var(--e0e0e0);
+    width: 100%;
+    position: relative;
+}
+
+#compareProductTable .container .productSearchForm .form-control{
+    background-color: var(--bg);
+    border-radius: 0;
+    padding: 13px 30px;
+    outline: none;
+    border: none;
+}
+
+#compareProductTable .container .productSearchForm .form-control .placeholder{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    color: var(--a6aab7);
+}
+
+#compareProductTable .container .productSearchForm button{
+    position: absolute; 
+    top: 0;
+    right: 0;
+    padding: 0px 20px;
+    border: none;
+    border-left: 1px solid var(--1st-primary-color);
+    top: 13px;
+    outline: none;
+    justify-content: center;
+    color: var(--1st-primary-color);
+}
+
+#compareProductTable .container .productTable{
+    border: 1px solid var(--e0e0e0);
+}
+
+#compareProductTable .container .tableDiv .productTable .trRemove{
+    text-align: center;
+    border: 1px solid var(--e0e0e0);
+}
+
+#compareProductTable .container .tableDiv .productTable .trRemove th{
+    padding: 37px 34px;
+    border-right: 1px solid var(--e0e0e0);
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 156%;
+    text-align: center;
+    color: var(--text-color);
+}
+#compareProductTable .container .tableDiv .productTable .trRemove td{
+    border-right: 1px solid var(--e0e0e0);
+}
+
+#compareProductTable .container .tableDiv .productTable .trRemove td a{
+    height: 20px;
+    width: 16px;
+    color: var(--1st-primary-color);
+    transition: 0.3s;
+}
+
+#compareProductTable .container .tableDiv .productTable .trRemove td a:hover{
+    color: var(--text-color);
+}
+
+
+#compareProductTable .container .tableDiv .productTable .trImage{
+    text-align: center;
+    border: 1px solid var(--e0e0e0);
+}
+
+#compareProductTable .container .tableDiv .productTable .trImage th{
+    padding: 37px 34px;
+    border-right: 1px solid var(--e0e0e0);
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 156%;
+    text-align: center;
+    color: var(--text-color);
+}
+
+#compareProductTable .container .tableDiv .productTable .trImage td{
+    border-right: 1px solid var(--e0e0e0);
+    padding: 30px 12px;
+}
+
+#compareProductTable .container .tableDiv .productTable .trImage td a{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    text-align: center;
+    color: var(--text-color);
+}
+
+#compareProductTable .container .tableDiv .productTable .trImage td .product-img{
+    padding-bottom: 15px;
+}
+
+
+#compareProductTable .container .tableDiv .productTable .trDesc{
+    text-align: center;
+    border: 1px solid var(--e0e0e0);
+}
+
+#compareProductTable .container .tableDiv .productTable .trDesc th{
+    padding: 37px 34px;
+    border-right: 1px solid var(--e0e0e0);
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 156%;
+    text-align: center;
+    color: var(--text-color);
+}
+
+#compareProductTable .container .tableDiv .productTable .trDesc td{
+    border-right: 1px solid var(--e0e0e0);
+    padding: 20px 12px;
+}
+
+#compareProductTable .container .tableDiv .productTable .trDesc td p{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    text-align: center;
+    color: var(--paragraph-color);
+}
+
+
+#compareProductTable .container .tableDiv .productTable .trPrice{
+    text-align: center;
+    border: 1px solid var(--e0e0e0);
+    background-color: var(--bg);
+}
+
+#compareProductTable .container .tableDiv .productTable .trPrice th{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 156%;
+    text-align: center;
+    color: var(--text-color);
+    border-right: 1px solid var(--e0e0e0);
+}
+
+#compareProductTable .container .tableDiv .productTable .trPrice td{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    text-align: center;
+    color: var(--paragraph-color);
+    border-right: 1px solid var(--e0e0e0);
+    padding: 15px 12px;
+}
+
+
+#compareProductTable .container .tableDiv .productTable .trColor{
+    text-align: center;
+    border: 1px solid var(--e0e0e0);
+}
+
+#compareProductTable .container .tableDiv .productTable .trColor th{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 156%;
+    text-align: center;
+    color: var(--text-color);
+    border-right: 1px solid var(--e0e0e0);
+}
+
+#compareProductTable .container .tableDiv .productTable .trColor td{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    text-align: center;
+    color: var(--paragraph-color);
+    border-right: 1px solid var(--e0e0e0);
+    padding: 15px 12px;
+}
+
+
+#compareProductTable .container .tableDiv .productTable .trRating{
+    text-align: center;
+    border: 1px solid var(--e0e0e0);
+    background-color: var(--bg);
+}
+
+#compareProductTable .container .tableDiv .productTable .trRating th{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 156%;
+    text-align: center;
+    color: var(--text-color);
+    border-right: 1px solid var(--e0e0e0);
+}
+
+#compareProductTable .container .tableDiv .productTable .trRating .starIcone{
+    display: flex;
+}
+
+#compareProductTable .container .tableDiv .productTable .trRating .starIcone .star span{
+    width: 11px;
+    height: 10px;
+    padding: 1px;
+    color:var(--1st-primary-color);
+}
+
+#compareProductTable .container .tableDiv .productTable .trRating .starIcone .number{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    color: var(--paragraph-color);
+}
+
+#compareProductTable .container .tableDiv .productTable .trRating td{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    text-align: center;
+    color: var(--paragraph-color);
+    border-right: 1px solid var(--e0e0e0);
+    padding: 15px 12px;
+}
+
+
+
+#compareProductTable .container .tableDiv .productTable .trStock{
+    text-align: center;
+    border: 1px solid var(--e0e0e0);
+}
+
+#compareProductTable .container .tableDiv .productTable .trStock th{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 156%;
+    text-align: center;
+    color: var(--text-color);
+    border-right: 1px solid var(--e0e0e0);
+}
+
+#compareProductTable .container .tableDiv .productTable .trStock td{
+    border-right: 1px solid var(--e0e0e0);
+    padding: 15px 12px;
+}
+
+#compareProductTable .container .tableDiv .productTable .trStock td span{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    text-align: center;
+    color: var(--paragraph-color);
+}
+
+#compareProductTable .container .tableDiv .productTable .trStock td span i{
+    height: 14px;
+    width: 14px;
+    color: var(--green);
+}
+
+
+#compareProductTable .container .tableDiv .productTable .addToCard{
+    text-align: center;
+    border: 1px solid var(--e0e0e0);
+    background-color: var(--bg);
+}
+
+#compareProductTable .container .tableDiv .productTable .addToCard th{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 156%;
+    text-align: center;
+    color: var(--text-color);
+    border-right: 1px solid var(--e0e0e0);
+}
+
+#compareProductTable .container .tableDiv .productTable .addToCard td{
+    border-right: 1px solid var(--e0e0e0);
+    padding: 15px 12px;
+}
+
+#compareProductTable .container .tableDiv .productTable .addToCard td a{
+    padding: 10px 20px;
+    background-color: var(--1st-primary-color);
+    color: var(--comon-colot);
+    transition: 0.3s;
+}
+
+#compareProductTable .container .tableDiv .productTable .addToCard td a:hover{
+    background-color: var(--2nd-primary-color);
+    margin-left: 3px;
+}
+
+
+/* compareProductTable section style end */
+
+
+
+/* ====================CPMPARE PAGE STYLE END==================== */
