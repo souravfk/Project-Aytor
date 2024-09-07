@@ -4666,3 +4666,118 @@ nav .icone .bag .number-of-sales{
 
 
 /* ====================CPMPARE PAGE STYLE END==================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ====================WISHLIST PAGE STYLE START==================== */
+
+
+/*   <!-- WishlistBanner section style start --> */
+#WishlistBanner{
+    background-color: var(--a6aab7);
+}
+
+#WishlistBanner .headline{
+    text-align: center;
+    padding: 150px 0;
+    justify-content: center;
+}
+
+#WishlistBanner .headline h2{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 121%;
+    text-align: center;
+    color: var(--comon-colot);
+}
+
+#WishlistBanner .headline p{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    text-align: center;
+    color: var(--comon-colot);
+}
+
+#WishlistBanner .headline p span{
+    color: var(--2nd-primary-color);
+}
+/*   <!-- WishlistBanner section style end --> */
+
+
+
+/* WishlistTableList section style start */
+#WishlistTableList table{
+    text-align: center;
+}
+
+#WishlistTableList table thead tr th{
+    background-color: var(--bg);
+    padding: 15px 0;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 156%;
+    text-align: center;
+    color: var(--text-color);
+    border-bottom: 1px solid var(--1st-primary-color);
+}
+
+
+#WishlistTableList table img{
+    height: 100px;
+    width: 100px;
+}
+
+#WishlistTableList table tbody tr{
+    border: 1px solid var(--e0e0e0);
+}
+
+
+#WishlistTableList table tbody tr a{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    text-align: center;
+    color: var(--paragraph-color);
+    transition: 0.3s;
+}
+
+#WishlistTableList table tbody tr .product-remove:hover{
+    color: var(--1st-primary-color);
+}
+
+#WishlistTableList table tbody tr a .ticmark{
+    color: var(--green);
+}
+
+#WishlistTableList table tbody tr .cardbtn{
+    padding: 13px 26px;
+    background-color: var(--1st-primary-color);
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 175%;
+    text-align: center;
+    color: var(--comon-colot);
+}
+
+/* WishlistTableList section style end */
+
+
+/* ====================WISHLIST PAGE STYLE END==================== */
