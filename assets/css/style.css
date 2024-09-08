@@ -4721,13 +4721,17 @@ nav .icone .bag .number-of-sales{
 
 
 /* WishlistTableList section style start */
+#WishlistTableList{
+    padding: 100px 0;
+}
+
 #WishlistTableList table{
     text-align: center;
 }
 
 #WishlistTableList table thead tr th{
     background-color: var(--bg);
-    padding: 15px 0;
+    padding: 15px 20px;
     font-family: var(--font-family);
     font-weight: 600;
     font-size: 18px;
@@ -4738,6 +4742,11 @@ nav .icone .bag .number-of-sales{
 }
 
 
+#WishlistTableList table thead tr .crd{
+    padding: 0 70px;
+}
+
+
 #WishlistTableList table img{
     height: 100px;
     width: 100px;
@@ -4745,6 +4754,11 @@ nav .icone .bag .number-of-sales{
 
 #WishlistTableList table tbody tr{
     border: 1px solid var(--e0e0e0);
+    text-align: center;
+}
+
+#WishlistTableList table tbody tr td{
+    padding: 10px 0;
 }
 
 
