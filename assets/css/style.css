@@ -4686,7 +4686,7 @@ nav .icone .bag .number-of-sales{
 
 /*   <!-- WishlistBanner section style start --> */
 #WishlistBanner{
-    background-color: var(--a6aab7);
+    
 }
 
 #WishlistBanner .headline{
@@ -4795,3 +4795,57 @@ nav .icone .bag .number-of-sales{
 
 
 /* ====================WISHLIST PAGE STYLE END==================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ====================Checkout Pages Start==================== */
+
+#CheckoutBanner{
+    background-color: var(--a6aab7);
+    background-image: url(../images/Shop-Checkout/CheckoutBanner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#CheckoutBanner .headline{
+    text-align: center;
+    padding: 150px 0;
+    justify-content: center;
+}
+
+#CheckoutBanner .headline h2{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 121%;
+    text-align: center;
+    color: var(--comon-colot);
+}
+
+#CheckoutBanner .headline p{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    text-align: center;
+    color: var(--comon-colot);
+}
+
+#CheckoutBanner .headline p span{
+    color: var(--2nd-primary-color);
+}
+
+/* ====================Checkout Pages end==================== */
