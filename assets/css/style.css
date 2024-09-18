@@ -4813,6 +4813,8 @@ nav .icone .bag .number-of-sales{
 
 /* ====================Checkout Pages Start==================== */
 
+/* ChackoutBanner style start */
+
 #CheckoutBanner{
     background-color: var(--a6aab7);
     background-image: url(../images/Shop-Checkout/CheckoutBanner.jpg);
@@ -4847,5 +4849,125 @@ nav .icone .bag .number-of-sales{
 #CheckoutBanner .headline p span{
     color: var(--2nd-primary-color);
 }
+
+/* ChackoutBanner style end */
+
+
+
+/*  CheckoutInformation section style start */
+
+#CheckoutInformation {
+    padding: 100px 0;
+}
+
+
+#CheckoutInformation .container .logout{
+    background-color: var(--bg);
+    padding: 18px 0px 18px 30px;
+}
+
+#CheckoutInformation .container .logout .info span{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    color: var(--paragraph-color);
+}
+
+#CheckoutInformation .container .logout .info span i{
+    padding-right: 10px;
+}
+
+#CheckoutInformation .container .logout .info span a{
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: var(--1st-primary-color);
+    transition: 0.3s;
+}
+
+#CheckoutInformation .container .logout .info span a:hover{
+    color: var(--black);
+}
+
+#CheckoutInformation .container .Billing_Aditional_Information{
+    margin-top: 40px;
+}
+
+#CheckoutInformation .container .Billing_Aditional_Information h2{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 133%;
+    color: var(--text-color);
+}
+
+
+#CheckoutInformation .container .Billing_Aditional_Information label{
+    margin-top: 20px;
+    color: var(--Text-Color, #11161E);
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    color: var(--text-color);
+}
+
+#CheckoutInformation .container .Billing_Aditional_Information input{
+    border-radius: 0;
+    margin-top: 6px;
+}
+
+#CheckoutInformation .container .Billing_Aditional_Information select{
+    border-radius: 0;
+    margin-top: 6px;
+    overflow: hidden;
+}
+
+#CheckoutInformation .container .Billing_Aditional_Information textarea{
+    border-radius: 0;
+    margin-top: 6px;
+}
+
+#CheckoutInformation .container .OrderTable{
+    margin-top: 40px;
+}
+
+#CheckoutInformation .container .OrderTable table{
+    width: 100%;
+    text-align: center;
+}
+
+#CheckoutInformation .container .OrderTable table thead{
+    background-color: var(--bg);
+    border-bottom: 2px solid var(--1st-primary-color);
+}
+
+#CheckoutInformation .container .OrderTable table thead tr th{
+    padding: 17px 0;
+    border: 1px solid var(--bg);
+}
+
+#CheckoutInformation .container .OrderTable table tbody tr{
+    border: 1px solid var(--bg);
+}
+
+#CheckoutInformation .container .OrderTable table tbody tr td{
+    border-right: 1px solid var(--bg);
+}
+
+#CheckoutInformation .container .OrderTable table tbody tr td .amount{
+    text-align: right;
+}
+
+#CheckoutInformation .container .OrderTable table tfoot tr{
+    border: 1px solid var(--bg);
+}
+
+#CheckoutInformation .container .OrderTable table tfoot tr td{
+    /* border-right: 1px solid var(--bg); */
+}
+
+/*  CheckoutInformation section style end */
+
 
 /* ====================Checkout Pages end==================== */
