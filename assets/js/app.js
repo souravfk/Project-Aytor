@@ -365,6 +365,35 @@ $(".relProductParent").slick({
 });
 
 
+
+// ======= Offcanvash============
+
+
+let mainLnk = document.querySelector('.mainLnk');
+let dropdown = document.querySelector('.dropdown');
+
+mainLnk.onclick = function () {
+  dropdown.classList.toggle('show');
+}
+
+
+
+//   if ($(this).hasClass(`active`)){
+//     $(this).removeClass(`active`)
+//   } else{
+//     mainLnk.removeClass(`active`)
+//     $(this).addClass(`active`)
+//   }
+
+//   $('.dropdawn').slideDown();
+
+// });
+
+
+
+
+
+
 let  plus = document.querySelector('.quantity-plus');
 let  minus = document.querySelector('.quantity-minus');
 let  qtynum = document.querySelector('.qtynulet');

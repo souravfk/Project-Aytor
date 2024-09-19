@@ -174,15 +174,59 @@
       </div>
       <div class="offcanvas-body">
         <ul>
-          <li><a href="index.html">Home <i class="fa-solid fa-angle-down"></i></a></li>
-          <li><a href="about.html">About <i class="fa-solid fa-angle-down"></i></a></li>
-          <li><a href="pages.html">Pages <i class="fa-solid fa-angle-down"></i></a></li>
-          <li><a href="features.html">Features <i class="fa-solid fa-angle-down"></i></a></li>
-          <li><a href="blogs.html">Bloges <i class="fa-solid fa-angle-down"></i></a></li>
-          <li><a href="shop.html">Shop <i class="fa-solid fa-angle-down"></i></a></li>
-          <li><a href="contact.html">Contact <i class="fa-solid fa-angle-down"></i></a></li>
-      </ul>
-      </div>
+          <li class="mainLnk">
+             <a href="">Home <i class="fa-solid fa-angle-down"></i></a>
+               <ul class="dropdown">
+                 <li><a class="" href="#">Home One</a></li>
+                 <li><a class="" href="#">Home Two</a></li>
+                 <li><a class="" href="#">Home Three</a></li>
+               </ul>
+          </li>
+          <li class="mainLnk">
+            <a href="pages.html">Pages <i class="fa-solid fa-angle-down"></i></a>
+            <ul class="dropdown">
+              <li><a href="#">Pages-1</a></li>
+              <li><a href="#">Pages-2</a></li>
+              <li><a href="#">Pages-3</a></li>
+              <li><a href="#">Pages-4</a></li>
+              <li><a href="#">Pages-5</a></li>
+            </ul>
+          </li>
+          <li class="mainLnk">
+            <a href="features.html">Features <i class="fa-solid fa-angle-down"></i></a>
+            <ul class="dropdown">
+              <li><a href="#">Features-1</a></li>
+              <li><a href="#">Features-2</a></li>
+              <li><a href="#">Features-3</a></li>
+              <li><a href="#">Features-4</a></li>
+              <li><a href="#">Features-5</a></li>
+            </ul>
+          </li>
+          <li class="mainLnk">
+            <a href="blogs.html">Bloges <i class="fa-solid fa-angle-down"></i></a>
+            <ul class="dropdown">
+              <li><a href="#">Blogs-1</a></li>
+              <li><a href="#">Blogs-2</a></li>
+              <li><a href="#">Blogs-3</a></li>
+              <li><a href="#">Blogs-4</a></li>
+              <li><a href="#">Blogs-5</a></li>
+            </ul>
+          </li>
+          <li class="mainLnk">
+            <a href="">Shop <i class="fa-solid fa-angle-down"></i></a>
+               <ul class="dropdown">
+                 <li><a href="shop.html">Shop</a></li>
+                 <li><a href="shopdetails.html">Shop-Details</a></li>
+                 <li><a href="cart.html">Cart</a></li>
+                 <li><a href="compare.html">Compare</a></li>
+                 <li><a href="checkout.html">Checkout</a></li>
+                 <li><a href="wishlist.html">Wishlist</a></li>
+               </ul>
+          </li>
+          <li class="mainLnk"><a href="contact.html">About Us</a></li>
+          <li class="mainLnk"><a href="contact.html">Contact</a></li>
+         </ul>
+        </div>
     </div>
     <!-- offcanvash end -->
 
@@ -281,8 +325,8 @@
 
              <div class="OrderTable">
                <h4>Your Order</h4>
-              <form action="#" class="woocommerce-cart-form">
-                <div class="tableDiv table-responsive">
+                <form action="#" class="woocommerce-cart-form">
+                  <div class="tableDiv table-responsive">
                   <table class="">
                   <thead>
                     <tr>
@@ -300,12 +344,21 @@
                           <img width="140" height="140" src="./assets/images/Shop-Checkout/nighty.png" alt="Image"></a>
                         </td>
                         <td data-title="Name">
-                          <a class="cart-productname" href="shop.html">Jacket Hoodie Sweater</a>
+                          <span class="cart-productname" href="shop.html">Jacket Hoodie Sweater</span>
                         </td>
                         <td data-title="Price">
                           <span class="amount"><bdi><span>$</span>130.00</bdi></span>
                         </td>
-                        <td data-title="Quantity"><strong class="product-quantity">01</strong>
+                        <td data-title="Quantity">
+                          <div class="quantity">
+                            <button class="quantity-minus qut-btn">
+                              <i class="fa-solid fa-minus"></i>
+                            </button>                                        
+                              <div class="qtynum">1</div>
+                            <button class="quantity-plus qut-btn">
+                              <i class="fa-solid fa-plus"></i>
+                            </button>                   
+                          </div>
                         </td>
                         
                         <td data-title="Total">
@@ -315,26 +368,61 @@
                     </tbody>
                     <tfoot class="checkout-ordertable">
                       <tr class="cart-subtotal">
-                        <td data-title="Subtotal">
+                        <th data-title="Subtotal">
                           <span>Subtotal</span>
-                        </td>
+                        </th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
                         <td data-title="Subtotal">
-                          <a href="#"> <span class="amount"><bdi><span>$</span>130.00</bdi></span></a>
+                           <span class="amount"><bdi><span>$</span>130.00</bdi></span>
                         </td>
                       </tr>
                       <tr class="cart-subtotal">
-                        <td data-title="Subtotal">
+                        <th data-title="Subtotal">
                           <span>Total</span>
-                        </td>
+                        </th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
                         <td data-title="Subtotal">
                           <span class="amount"><bdi><span>$</span>130.00</bdi></span>
                         </td>
                       </tr>
                     </tfoot>
                   </table>
-                </div>
-              </form>
+                  </div>
+                </form>
              </div>
+
+             <div class="paymentCatagory">
+              <div class="col-lg-12">
+                 <input type="checkbox">
+                 <label for="">Direct bank transfer</label>
+                 <div class="payment_box payment_method_bacs" style="display: block;">
+                    <p>Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order will not be shipped until the funds have cleared in our account.</p>
+                 </div>
+             </div>
+               <div class="col-lg-12">
+                 <input type="checkbox">
+                 <label for="">Check payments</label>
+                 <div class="payment_box payment_method_bacs" style="display: block;">
+                    <p>Please send a check to Store Name, Store Street, Store Town, Store State / County, Store Postcode.</p>
+                 </div>
+              </div>
+              
+              <div class="col-lg-12">
+                 <input type="checkbox">
+                 <label for="">Cash on delivery</label>
+                 <div class="payment_box payment_method_bacs" style="display: block;">
+                    <p>Pay with cash upon delivery.</p>
+                 </div>
+            </div>
+
+              <p>Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our <a href="#">privacy policy.</a></p>
+              
+                  <a class="btn" href="#"><span class="btn-text">Place order</span></a>
+            </div>
           </div>
       </section>
      <!-- CheckoutInformation section end -->

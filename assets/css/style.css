@@ -450,6 +450,21 @@ nav .icone .bag .number-of-sales{
 }
 /* navigation secton end */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* offcanvash style start */
 
 .offcanvas .offcanvas-body ul li{
@@ -472,7 +487,28 @@ nav .icone .bag .number-of-sales{
     color: var(--1st-primary-color);
 }
 
+.offcanvas .offcanvas-body ul li .dropdown{
+    background-color: var(--bg);
+    /* opacity: 0;
+    visibility: hidden;
+    max-height: 0; */
+}
+
+.offcanvas .offcanvas-body ul .dropdown.show{
+    max-height: 300px;
+    opacity: 1;
+    visibility: visible;
+}
+
 /* offcanvash style end */
+
+
+
+
+
+
+
+
 
 
 /* banner section start */
@@ -4685,9 +4721,6 @@ nav .icone .bag .number-of-sales{
 
 
 /*   <!-- WishlistBanner section style start --> */
-#WishlistBanner{
-    
-}
 
 #WishlistBanner .headline{
     text-align: center;
@@ -4932,6 +4965,14 @@ nav .icone .bag .number-of-sales{
     margin-top: 40px;
 }
 
+#CheckoutInformation .container .OrderTable h4{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 133%;
+    color: var(--text-color);
+}
+
 #CheckoutInformation .container .OrderTable table{
     width: 100%;
     text-align: center;
@@ -4945,27 +4986,157 @@ nav .icone .bag .number-of-sales{
 #CheckoutInformation .container .OrderTable table thead tr th{
     padding: 17px 0;
     border: 1px solid var(--bg);
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    color: var(--text-color);
 }
 
 #CheckoutInformation .container .OrderTable table tbody tr{
     border: 1px solid var(--bg);
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    text-align: center;
+    color: var(--paragraph-color);
 }
 
 #CheckoutInformation .container .OrderTable table tbody tr td{
     border-right: 1px solid var(--bg);
+    padding: 30px 10px;
+    border: none;
+    border-bottom: 1px solid var(--bg);
+    border-right: 1px solid var(--bg);
+    color: var(--body-color);
+    padding: 30px 40px;
+    position: relative;
+    vertical-align: middle;
 }
 
-#CheckoutInformation .container .OrderTable table tbody tr td .amount{
-    text-align: right;
+#CheckoutInformation .container .OrderTable table tbody tr td .quantity{
+    display: flex;
+    text-align: center;
 }
 
-#CheckoutInformation .container .OrderTable table tfoot tr{
+#CheckoutInformation .container .OrderTable table tbody tr td .quantity .qut-btn{
+    background-color: transparent;
+    font-size: 16px;
+    border: 1px solid var(--paragraph-color);
+    border-radius: 3px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    opacity: 0.3;
+}
+
+#CheckoutInformation .container .OrderTable table tbody tr td .quantity .qut-btn:hover{
+    color: var(--2nd-primary-color);
+}
+
+#CheckoutInformation .container .OrderTable table tbody tr td .quantity .qtynum{
+    border: 1px solid var(--paragraph-color);
+    border-radius: 3px;
+    width: 70px;
+    height: 30px;
+    background: var(--comon-colot);
+    color: var(--paragraph-color);
+    opacity: 0.3;
+    margin: 0 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+
+#CheckoutInformation .container tfoot tr{
     border: 1px solid var(--bg);
 }
 
-#CheckoutInformation .container .OrderTable table tfoot tr td{
-    /* border-right: 1px solid var(--bg); */
+#CheckoutInformation .container tfoot tr th{
+    padding: 12px 30px;
+    border-right: 1px solid var(--bg);
+    text-align: left;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    color: var(--text-color);
 }
+
+#CheckoutInformation .container tfoot tr td{
+    text-align: right;
+    padding: 12px 30px;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    text-align: center;
+    color: var(--paragraph-color);
+    transition: 0.3s;
+}
+
+#CheckoutInformation .container tfoot tr td:hover{
+    color: var(--1st-primary-color);
+}
+
+
+#CheckoutInformation .container .paymentCatagory .payment_box{
+    background-color: var(--bg);
+    width: 100%;
+
+}
+
+#CheckoutInformation .container .paymentCatagory label{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    color: var(--text-color);
+    margin-top: 15px;
+}
+
+#CheckoutInformation .container .paymentCatagory .payment_box{
+    margin-top: 11px;
+}
+
+#CheckoutInformation .container .paymentCatagory .payment_box p{
+    padding: 12px 117px 12px 20px;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: var(--paragraph-color);
+}
+
+#CheckoutInformation .container .paymentCatagory p{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 175%;
+    color: var(--paragraph-color);
+    margin-top: 10px;
+}
+
+#CheckoutInformation .container .paymentCatagory p a{
+    color: var(--1st-primary-color);
+}
+
+#CheckoutInformation .container .paymentCatagory .btn{
+    margin-top: 20px;
+    padding: 11px 45px;
+    background-color: var(--1st-primary-color);
+    color: var(--comon-colot);
+    left: 0;
+    border-radius: 0;
+    transition: 0.3s;
+}
+
+#CheckoutInformation .container .paymentCatagory .btn:hover{
+    margin-left: 5px;
+    background-color: var(--2nd-primary-color);
+}
+
 
 /*  CheckoutInformation section style end */
 
