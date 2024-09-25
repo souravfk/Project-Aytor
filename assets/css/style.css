@@ -2824,20 +2824,7 @@ nav .icone .bag .number-of-sales{
     height: 6px;
 }
 
-
-
 /* shoesSliker section style end */
-
-
-
-
-
-
-
-
-
-
-
 
 /* =====================ABOUT PAGE END==================== */
 
@@ -2848,50 +2835,6 @@ nav .icone .bag .number-of-sales{
 
 
 
-
-
-
-
-
-
-
-
-
-/* =====================BLOGE PAGE START==================== */
-
-/* blogeBanner section start */
-#blogeBanner{
-    background: var(--text-color);
-    opacity: 0.7;
-}
-
-#blogeBanner .headline{
-    text-align: center;
-    padding: 148px 0;
-}
-
-#blogeBanner .headline h2{
-    font-family: var(--font-family);
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 121%;
-    text-align: center;
-    color: var(--comon-colot);
-}
-
-#blogeBanner .headline p{
-    font-family: var(--second-family);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 175%;
-    text-align: center;
-    color: var(--comon-colot);
-}
-/* blogeBanner section end */
-
-
-
-/* =====================BLOGE PAGE END==================== */
 
 
 
@@ -5142,3 +5085,228 @@ nav .icone .bag .number-of-sales{
 
 
 /* ====================Checkout Pages end==================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =====================BLOGE PAGE START==================== */
+
+/* blogeBanner section start */
+#blogeBanner{
+    background: var(--text-color);
+    opacity: 0.7;
+}
+
+#blogeBanner .headline{
+    text-align: center;
+    padding: 148px 0;
+}
+
+#blogeBanner .headline h2{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 121%;
+    text-align: center;
+    color: var(--comon-colot);
+}
+
+#blogeBanner .headline p{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    text-align: center;
+    color: var(--comon-colot);
+}
+/* blogeBanner section end */
+
+
+
+/* =====================BLOGE PAGE END==================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ====================BlogsClassic Pages style end==================== */
+
+/* blogesclassicBanner section start */
+#blogesclassicBanner{
+    background: var(--text-color);
+    opacity: 0.7;
+}
+
+#blogesclassicBanner .headline{
+    text-align: center;
+    padding: 148px 0;
+}
+
+#blogesclassicBanner .headline h2{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 121%;
+    text-align: center;
+    color: var(--comon-colot);
+}
+
+#blogesclassicBanner .headline p{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    text-align: center;
+    color: var(--comon-colot);
+}
+/* blogesclassicBanner section end *
+
+/* ====================BlogsClassic Pages style start==================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ====================Blogesclassicsidebar Pages style end==================== */
+
+/* blogesidebar Banner section start */
+#blogesidebarBanner{
+    background: var(--text-color);
+    opacity: 0.7;
+}
+
+#blogesidebarBanner .headline{
+    text-align: center;
+    padding: 148px 0;
+}
+
+#blogesidebarBanner .headline h2{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 121%;
+    text-align: center;
+    color: var(--comon-colot);
+}
+
+#blogesidebarBanner .headline p{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    text-align: center;
+    color: var(--comon-colot);
+}
+/* blogesidebarBanner section end *
+
+/* ====================Blogesclassicsidebar Pages style start==================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ====================BlogDetails Pages style end==================== */
+
+/* blogDetailsBanner Banner section start */
+#blogDetailsBanner{
+    background: var(--text-color);
+    opacity: 0.7;
+}
+
+#blogDetailsBanner .headline{
+    text-align: center;
+    padding: 148px 0;
+}
+
+#blogDetailsBanner .headline h2{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 121%;
+    text-align: center;
+    color: var(--comon-colot);
+}
+
+#blogDetailsBanner .headline p{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    text-align: center;
+    color: var(--comon-colot);
+}
+/* blogDetailsBanner section end *
+
+/* ====================BlogDetails Pages style start==================== */

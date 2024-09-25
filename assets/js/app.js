@@ -64,6 +64,7 @@ $(function(){
 });
 
 
+// NewArivalProduct====================//
 $(".productSlicks").slick({
     slidesToShow: 4,
     prevArrow:"#newArivalProduct .arrows .leftArrow",
