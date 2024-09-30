@@ -5113,8 +5113,7 @@ nav .icone .bag .number-of-sales{
 
 /* blogeBanner section start */
 #blogeBanner{
-    background: var(--text-color);
-    opacity: 0.7;
+    background-image: url(../images/Blog-pag-image/BlogBannerImg.png);
 }
 
 #blogeBanner .headline{
@@ -5138,6 +5137,10 @@ nav .icone .bag .number-of-sales{
     line-height: 175%;
     text-align: center;
     color: var(--comon-colot);
+}
+
+#blogeBanner .headline p span{
+    color: var(--1st-primary-color);
 }
 /* blogeBanner section end */
 
