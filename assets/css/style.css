@@ -813,6 +813,10 @@ nav .icone .bag .number-of-sales{
     
   }
 
+  #newArivalProduct .container .productContains{
+    border: 1px solid var(--bg);
+  }
+
 #newArivalProduct .container .productContains p{
     font-family: var(--font-family);
     font-weight: 400;
@@ -821,10 +825,10 @@ nav .icone .bag .number-of-sales{
     color: var(--paragraph-color);
 }
 
-#newArivalProduct .container .productContains h4{
+#newArivalProduct .container .productContains h6{
     font-family: var(--font-family);
-    font-weight: 600;
-    font-size: 18px;
+    font-weight: 500;
+    font-size: 16px;
     line-height: 156%;
     color: var(--text-color);
     margin: 5px 0 11px 0;
@@ -5136,6 +5140,134 @@ nav .icone .bag .number-of-sales{
     color: var(--comon-colot);
 }
 /* blogeBanner section end */
+
+
+
+
+
+/* BlogItems section atart */
+
+#BlogeItem{
+    padding: 100px 0;
+}
+
+#BlogeItem .blogCard .images{
+    position: relative;
+}
+
+#BlogeItem .blogCard{
+    transition: 0.4s;
+}
+
+#BlogeItem .blogCard .images img{
+    height: 300px;
+}
+
+#BlogeItem .blogCard:hover{
+    transform: scale(1.02);
+}
+
+#BlogeItem .blogCard .blogTitle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--text-color);
+    opacity: 0.7;
+}
+
+#BlogeItem .blogCard .blogTitle a{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    color: var(--comon-colot);
+    padding: 15px 10px;
+}
+
+#BlogeItem .blogInformation .header{
+
+    margin:10px 0;
+}
+
+#BlogeItem .blogInformation .header a{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 142%;
+    color: var(--text-color);
+    transition: 0.3s;
+}
+
+#BlogeItem .blogInformation .heading a:hover{
+    color: var(--1st-primary-color);
+}
+
+#BlogeItem .blogInformation p{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: var(--paragraph-color);
+}
+
+
+#BlogeItem .blogInformation a{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 175%;
+    color: var(--paragraph-color);
+    transition: var(--1st-primary-color);
+}
+
+#BlogeItem .blogInformation a:hover{
+    color: var(--1st-primary-color);
+}
+
+#BlogeItem .result-showing_text {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+#BlogeItem .result-showing .progress {
+    height: 2px;
+    background-color: #f1f1f1;
+    border-radius: 0;
+}
+
+#BlogeItem .as-pagination .prev, .as-pagination .next {
+    width: auto;
+    padding: 0 13px;
+}
+
+#BlogeItem .as-pagination li {
+    display: inline-block;
+    margin: 0 3px;
+    list-style-type: none;
+}
+
+#BlogeItem .as-pagination span, .as-pagination a {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    position: relative;
+    border: 1px solid var(--bg);
+    z-index: 1;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;
+    text-align: center;
+    color: var(--paragraph-color);
+    transition: 0.3s;
+}
+
+#BlogeItem .as-pagination span, .as-pagination a:hover{
+    background-color: var(--black);
+    color: var(--comon-colot);
+}
+
+/* BlogItems section end */
 
 
 
